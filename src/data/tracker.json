@@ -3177,16 +3177,6 @@
   ],
   "skills": [
     {
-      "name": "Skill / Topic",
-      "level": "Level",
-      "phase": "Phase",
-      "week": "Week",
-      "status": "Status",
-      "resource": "Resource",
-      "notes": "Notes",
-      "category": null
-    },
-    {
       "name": "Variables, types, conditionals, loops",
       "level": "Beginner",
       "phase": "P1",
@@ -4558,15 +4548,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "Project name",
-      "stack": "Tech stack",
-      "status": "Status",
-      "priority": "Priority",
-      "liveUrl": "Live URL",
-      "githubUrl": "GitHub URL",
-      "action": "Action needed TODAY"
-    },
     {
       "name": "RustCart API",
       "stack": "Rust + Actix + PostgreSQL + Razorpay",
