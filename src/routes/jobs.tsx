@@ -71,7 +71,7 @@ function JobsPage() {
         )}
       </Section>
 
-      {showNew && <NewJob onClose={() => setShowNew(false)} onAdd={(j) => { addJob(j); setShowNew(false); }} />}
+      {showNew && <NewJob onClose={() => setShowNew(false)} onAdd={(j: Omit<JobApp, "id">) => { addJob(j); setShowNew(false); }} />}
     </div>
   );
 }
