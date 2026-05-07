@@ -76,7 +76,7 @@ function DailyPage() {
       </Section>
 
       {openDay !== null && (
-        <DayModal day={openDay} entry={tracker.days.find((d: any) => d.day === openDay)} log={s.dayLogs[openDay] || {}} onClose={() => setOpenDay(null)} onSave={(patch) => { update(openDay, patch); toast.success(`Day ${openDay} saved`); setOpenDay(null); }} />
+        <DayModal day={openDay} entry={tracker.days.find((d: any) => d.day === openDay)} log={s.dayLogs[openDay] || {}} onClose={() => setOpenDay(null)} onSave={(patch: any) => { update(openDay, patch); toast.success(`Day ${openDay} saved`); setOpenDay(null); }} />
       )}
     </div>
   );

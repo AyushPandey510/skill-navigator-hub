@@ -93,7 +93,7 @@ function NewJob({ onClose, onAdd }: any) {
         </div>
         <div className="flex gap-2 justify-end mt-5">
           <button onClick={onClose} className="px-4 py-2 rounded-lg bg-secondary text-sm">Cancel</button>
-          <button onClick={() => f.company && onAdd(f)} className="px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow">Add</button>
+          <button onClick={() => f.company && onAdd(f as any)} className="px-4 py-2 rounded-lg gradient-primary text-primary-foreground text-sm font-medium shadow-glow">Add</button>
         </div>
       </div>
     </div>
