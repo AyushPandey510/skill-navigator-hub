@@ -1,0 +1,4711 @@
+{
+  "days": [
+    {
+      "day": "#",
+      "date": null,
+      "phase": null,
+      "focus": "Backend/ML"
+    },
+    {
+      "day": 1,
+      "date": "Thu 08 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 2,
+      "date": "Fri 09 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 3,
+      "date": "Sat 10 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 4,
+      "date": "Sun 11 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 5,
+      "date": "Mon 12 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 6,
+      "date": "Tue 13 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 7,
+      "date": "Wed 14 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 8,
+      "date": "Thu 15 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 9,
+      "date": "Fri 16 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 10,
+      "date": "Sat 17 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 11,
+      "date": "Sun 18 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 12,
+      "date": "Mon 19 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 13,
+      "date": "Tue 20 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 14,
+      "date": "Wed 21 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 15,
+      "date": "Thu 22 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 16,
+      "date": "Fri 23 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 17,
+      "date": "Sat 24 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 18,
+      "date": "Sun 25 May",
+      "phase": "Phase 1",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 19,
+      "date": "Mon 26 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 20,
+      "date": "Tue 27 May",
+      "phase": "Phase 1",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 21,
+      "date": "Wed 28 May",
+      "phase": "Phase 1",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 22,
+      "date": "Thu 29 May",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 23,
+      "date": "Fri 30 May",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 24,
+      "date": "Sat 31 May",
+      "phase": "Phase 2",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 25,
+      "date": "Sun 01 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 26,
+      "date": "Mon 02 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 27,
+      "date": "Tue 03 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 28,
+      "date": "Wed 04 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 29,
+      "date": "Thu 05 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 30,
+      "date": "Fri 06 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 31,
+      "date": "Sat 07 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 32,
+      "date": "Sun 08 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 33,
+      "date": "Mon 09 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 34,
+      "date": "Tue 10 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 35,
+      "date": "Wed 11 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 36,
+      "date": "Thu 12 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 37,
+      "date": "Fri 13 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 38,
+      "date": "Sat 14 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 39,
+      "date": "Sun 15 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 40,
+      "date": "Mon 16 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 41,
+      "date": "Tue 17 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 42,
+      "date": "Wed 18 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 43,
+      "date": "Thu 19 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 44,
+      "date": "Fri 20 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 45,
+      "date": "Sat 21 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 46,
+      "date": "Sun 22 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 47,
+      "date": "Mon 23 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 48,
+      "date": "Tue 24 Jun",
+      "phase": "Phase 2",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 49,
+      "date": "Wed 25 Jun",
+      "phase": "Phase 2",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 50,
+      "date": "Thu 26 Jun",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 51,
+      "date": "Fri 27 Jun",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 52,
+      "date": "Sat 28 Jun",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 53,
+      "date": "Sun 29 Jun",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 54,
+      "date": "Mon 30 Jun",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 55,
+      "date": "Tue 01 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 56,
+      "date": "Wed 02 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 57,
+      "date": "Thu 03 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 58,
+      "date": "Fri 04 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 59,
+      "date": "Sat 05 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 60,
+      "date": "Sun 06 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 61,
+      "date": "Mon 07 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 62,
+      "date": "Tue 08 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 63,
+      "date": "Wed 09 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 64,
+      "date": "Thu 10 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 65,
+      "date": "Fri 11 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 66,
+      "date": "Sat 12 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 67,
+      "date": "Sun 13 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 68,
+      "date": "Mon 14 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 69,
+      "date": "Tue 15 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 70,
+      "date": "Wed 16 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 71,
+      "date": "Thu 17 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 72,
+      "date": "Fri 18 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 73,
+      "date": "Sat 19 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 74,
+      "date": "Sun 20 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 75,
+      "date": "Mon 21 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 76,
+      "date": "Tue 22 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 77,
+      "date": "Wed 23 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 78,
+      "date": "Thu 24 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 79,
+      "date": "Fri 25 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 80,
+      "date": "Sat 26 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 81,
+      "date": "Sun 27 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 82,
+      "date": "Mon 28 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 83,
+      "date": "Tue 29 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 84,
+      "date": "Wed 30 Jul",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 85,
+      "date": "Thu 31 Jul",
+      "phase": "Phase 3",
+      "focus": "\ud83e\udd16 ML/AI"
+    },
+    {
+      "day": 86,
+      "date": "Fri 01 Aug",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    },
+    {
+      "day": 87,
+      "date": "Sat 02 Aug",
+      "phase": "Phase 3",
+      "focus": "\ud83d\ude80 Sprint"
+    },
+    {
+      "day": 88,
+      "date": "Sun 03 Aug",
+      "phase": "Phase 3",
+      "focus": "\ud83d\udd0d Review"
+    },
+    {
+      "day": 89,
+      "date": "Mon 04 Aug",
+      "phase": "Phase 3",
+      "focus": "\u2699\ufe0f Backend"
+    }
+  ],
+  "dsa": [
+    {
+      "id": 1,
+      "name": "Count all Digits of a Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 2,
+      "name": "Count number of odd digits",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 3,
+      "name": "Reverse a number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 4,
+      "name": "Palindrome Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 5,
+      "name": "Return the Largest Digit in a Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 6,
+      "name": "Factorial of a given number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 7,
+      "name": "Check if the Number is Armstrong",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 8,
+      "name": "Check for Perfect Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 9,
+      "name": "Check for Prime Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 10,
+      "name": "Count of Prime Numbers till N (Sieve)",
+      "topic": "Maths",
+      "difficulty": "Medium",
+      "category": "Basics"
+    },
+    {
+      "id": 11,
+      "name": "GCD of Two Numbers",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 12,
+      "name": "LCM of two numbers",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 13,
+      "name": "Divisors of a Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 14,
+      "name": "Selection Sort",
+      "topic": "Sorting",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 15,
+      "name": "Bubble Sort",
+      "topic": "Sorting",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 16,
+      "name": "Insertion Sort",
+      "topic": "Sorting",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 17,
+      "name": "Merge Sort",
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "category": "Basics"
+    },
+    {
+      "id": 18,
+      "name": "Quick Sort",
+      "topic": "Sorting",
+      "difficulty": "Medium",
+      "category": "Basics"
+    },
+    {
+      "id": 19,
+      "name": "Linear Search",
+      "topic": "Sorting",
+      "difficulty": "Easy",
+      "category": "Basics"
+    },
+    {
+      "id": 20,
+      "name": "Sum of Array Elements",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 21,
+      "name": "Count of odd numbers in array",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 22,
+      "name": "Check if the Array is Sorted",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 23,
+      "name": "Reverse an array",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 24,
+      "name": "Largest Element",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 25,
+      "name": "Second Largest Element",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 26,
+      "name": "Maximum Consecutive Ones",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 27,
+      "name": "Left Rotate Array by One",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 28,
+      "name": "Left Rotate Array by K Places",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 29,
+      "name": "Move Zeros to End",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 30,
+      "name": "Remove duplicates from sorted array",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 31,
+      "name": "Find missing number",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 32,
+      "name": "Union of two sorted arrays",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 33,
+      "name": "Intersection of two sorted arrays",
+      "topic": "Arrays",
+      "difficulty": "Easy",
+      "category": "Arrays Easy"
+    },
+    {
+      "id": 34,
+      "name": "Majority Element I (>n/2)",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 35,
+      "name": "Leaders in an Array",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 36,
+      "name": "Rearrange array elements by sign",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 37,
+      "name": "Print the matrix in spiral manner",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 38,
+      "name": "Pascal's Triangle I",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 39,
+      "name": "Pascal's Triangle II",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 40,
+      "name": "Pascal's Triangle III",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 41,
+      "name": "Rotate matrix by 90 degrees",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 42,
+      "name": "Two Sum",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 43,
+      "name": "3 Sum",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 44,
+      "name": "4 Sum",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 45,
+      "name": "Sort an array of 0s 1s and 2s (Dutch flag)",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 46,
+      "name": "Kadane's Algorithm (Max Subarray Sum)",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 47,
+      "name": "Next Permutation",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 48,
+      "name": "Majority Element II (>n/3)",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 49,
+      "name": "Longest subarray with sum K",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 50,
+      "name": "Count subarrays with given sum",
+      "topic": "Arrays",
+      "difficulty": "Medium",
+      "category": "Arrays Medium"
+    },
+    {
+      "id": 51,
+      "name": "Find the repeating and missing number",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 52,
+      "name": "Count Inversions",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 53,
+      "name": "Reverse Pairs",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 54,
+      "name": "Maximum Product Subarray",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 55,
+      "name": "Merge two sorted arrays without extra space",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 56,
+      "name": "Longest Consecutive Sequence",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 57,
+      "name": "Count subarrays with given XOR K",
+      "topic": "Arrays",
+      "difficulty": "Hard",
+      "category": "Arrays Hard"
+    },
+    {
+      "id": 58,
+      "name": "Highest Occurring Element in Array",
+      "topic": "Hashing",
+      "difficulty": "Easy",
+      "category": "Hashing"
+    },
+    {
+      "id": 59,
+      "name": "Second Highest Occurring Element",
+      "topic": "Hashing",
+      "difficulty": "Easy",
+      "category": "Hashing"
+    },
+    {
+      "id": 60,
+      "name": "Sum of Highest and Lowest Frequency",
+      "topic": "Hashing",
+      "difficulty": "Easy",
+      "category": "Hashing"
+    },
+    {
+      "id": 61,
+      "name": "Reverse a String",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 62,
+      "name": "Palindrome Check",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 63,
+      "name": "Largest Odd Number in a String",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 64,
+      "name": "Longest Common Prefix",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 65,
+      "name": "Isomorphic String",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings"
+    },
+    {
+      "id": 66,
+      "name": "Rotate String",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 67,
+      "name": "Valid Anagram",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings"
+    },
+    {
+      "id": 68,
+      "name": "Sort Characters by Frequency",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings"
+    },
+    {
+      "id": 69,
+      "name": "Search X in sorted array",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 70,
+      "name": "Lower Bound",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 71,
+      "name": "Upper Bound",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 72,
+      "name": "Search insert position",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 73,
+      "name": "Floor and Ceil in Sorted Array",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 74,
+      "name": "First and last occurrence",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 75,
+      "name": "Search in rotated sorted array I",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 76,
+      "name": "Search in rotated sorted array II",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 77,
+      "name": "Find minimum in Rotated Sorted Array",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 78,
+      "name": "Find out how many times array is rotated",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 79,
+      "name": "Single element in sorted array",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 80,
+      "name": "Find square root of a number",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 81,
+      "name": "Find Nth root of a number",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS"
+    },
+    {
+      "id": 82,
+      "name": "Find the smallest divisor",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 83,
+      "name": "Koko eating bananas",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 84,
+      "name": "Minimum days to make M bouquets",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 85,
+      "name": "Aggressive Cows",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 86,
+      "name": "Book Allocation Problem",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 87,
+      "name": "Find peak element",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS"
+    },
+    {
+      "id": 88,
+      "name": "Median of 2 sorted arrays",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS"
+    },
+    {
+      "id": 89,
+      "name": "Kth element of 2 sorted arrays",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS"
+    },
+    {
+      "id": 90,
+      "name": "Minimize Max Distance to Gas Station",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS"
+    },
+    {
+      "id": 91,
+      "name": "Split array - largest sum",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS"
+    },
+    {
+      "id": 92,
+      "name": "Find row with maximum 1s",
+      "topic": "Binary Search",
+      "difficulty": "Easy",
+      "category": "BS 2D"
+    },
+    {
+      "id": 93,
+      "name": "Search in a 2D matrix",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS 2D"
+    },
+    {
+      "id": 94,
+      "name": "Search in 2D matrix II",
+      "topic": "Binary Search",
+      "difficulty": "Medium",
+      "category": "BS 2D"
+    },
+    {
+      "id": 95,
+      "name": "Find Peak Element II",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS 2D"
+    },
+    {
+      "id": 96,
+      "name": "Matrix Median",
+      "topic": "Binary Search",
+      "difficulty": "Hard",
+      "category": "BS 2D"
+    },
+    {
+      "id": 97,
+      "name": "Recursion Concepts with Parameters",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 98,
+      "name": "Sum of First N Numbers (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 99,
+      "name": "Factorial (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 100,
+      "name": "Sum of Array Elements (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 101,
+      "name": "Reverse a String (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 102,
+      "name": "Check Palindrome (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 103,
+      "name": "Check Prime (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 104,
+      "name": "Reverse an array (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 105,
+      "name": "Check Array Sorted (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 106,
+      "name": "Sum of Digits (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 107,
+      "name": "Fibonacci Number (recursion)",
+      "topic": "Recursion",
+      "difficulty": "Easy",
+      "category": "Recursion"
+    },
+    {
+      "id": 108,
+      "name": "Pow(x,n)",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 109,
+      "name": "Generate Parentheses",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 110,
+      "name": "Power Set",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 111,
+      "name": "Check subsequence with sum K",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 112,
+      "name": "Count all subsequences with sum K",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 113,
+      "name": "Combination Sum",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 114,
+      "name": "Combination Sum II",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 115,
+      "name": "Subsets I",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 116,
+      "name": "Subsets II",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 117,
+      "name": "Combination Sum III",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 118,
+      "name": "Letter Combinations of a Phone Number",
+      "topic": "Recursion",
+      "difficulty": "Medium",
+      "category": "Recursion Medium"
+    },
+    {
+      "id": 119,
+      "name": "Palindrome Partitioning",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 120,
+      "name": "Word Search",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 121,
+      "name": "N Queen",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 122,
+      "name": "Rat in a Maze",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 123,
+      "name": "M Coloring Problem",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 124,
+      "name": "Sudoku Solver",
+      "topic": "Recursion",
+      "difficulty": "Hard",
+      "category": "Recursion Hard"
+    },
+    {
+      "id": 125,
+      "name": "Introduction to Singly LinkedList",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 126,
+      "name": "Traversal in Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 127,
+      "name": "Deletion in Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 128,
+      "name": "Insertion in Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 129,
+      "name": "Deletion of head of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 130,
+      "name": "Deletion of tail of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 131,
+      "name": "Deletion of Kth element of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 132,
+      "name": "Delete element with value X",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 133,
+      "name": "Insertion at head of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 134,
+      "name": "Insertion at tail of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 135,
+      "name": "Insertion at Kth position of LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 136,
+      "name": "Insertion before value X in LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Single"
+    },
+    {
+      "id": 137,
+      "name": "Introduction to Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 138,
+      "name": "Deletion in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 139,
+      "name": "Insertion in DLL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 140,
+      "name": "Convert Array to Doubly Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 141,
+      "name": "Delete head of Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 142,
+      "name": "Delete Tail of Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 143,
+      "name": "Delete Kth Element of Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 144,
+      "name": "Remove given node in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 145,
+      "name": "Insert node before head in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 146,
+      "name": "Insert node before tail in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 147,
+      "name": "Insert node before kth node in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 148,
+      "name": "Insert before given node in Doubly LL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Double"
+    },
+    {
+      "id": 149,
+      "name": "Add two numbers in Linked List",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 150,
+      "name": "Segregate odd and even nodes in LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 151,
+      "name": "Sort a LL of 0s 1s and 2s",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 152,
+      "name": "Remove Nth node from back of LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 153,
+      "name": "Reverse a LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 154,
+      "name": "Add one to number represented by LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 155,
+      "name": "Find Middle of Linked List",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Medium"
+    },
+    {
+      "id": 156,
+      "name": "Delete the middle node in LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 157,
+      "name": "Check if LL is palindrome",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 158,
+      "name": "Find the intersection point of Y LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 159,
+      "name": "Detect a loop in Linked List",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 160,
+      "name": "Find the starting point in LL (Floyd's)",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 161,
+      "name": "Length of loop in LL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 162,
+      "name": "Delete all occurrences of a key in DLL",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Medium"
+    },
+    {
+      "id": 163,
+      "name": "Remove duplicates from sorted DLL",
+      "topic": "Linked List",
+      "difficulty": "Easy",
+      "category": "LL Medium"
+    },
+    {
+      "id": 164,
+      "name": "Reverse LL in group of given size K",
+      "topic": "Linked List",
+      "difficulty": "Hard",
+      "category": "LL Hard"
+    },
+    {
+      "id": 165,
+      "name": "Rotate a Linked List",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Hard"
+    },
+    {
+      "id": 166,
+      "name": "Merge two Sorted Lists",
+      "topic": "Linked List",
+      "difficulty": "Medium",
+      "category": "LL Hard"
+    },
+    {
+      "id": 167,
+      "name": "Flattening of LL",
+      "topic": "Linked List",
+      "difficulty": "Hard",
+      "category": "LL Hard"
+    },
+    {
+      "id": 168,
+      "name": "Sort LL",
+      "topic": "Linked List",
+      "difficulty": "Hard",
+      "category": "LL Hard"
+    },
+    {
+      "id": 169,
+      "name": "Clone a LL with random and next pointer",
+      "topic": "Linked List",
+      "difficulty": "Hard",
+      "category": "LL Hard"
+    },
+    {
+      "id": 170,
+      "name": "Minimum Bit Flips to Convert Number",
+      "topic": "Bit Manip",
+      "difficulty": "Easy",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 171,
+      "name": "Single Number I",
+      "topic": "Bit Manip",
+      "difficulty": "Easy",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 172,
+      "name": "Single Number II",
+      "topic": "Bit Manip",
+      "difficulty": "Medium",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 173,
+      "name": "Single Number III",
+      "topic": "Bit Manip",
+      "difficulty": "Medium",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 174,
+      "name": "Divide two numbers without multiply/divide",
+      "topic": "Bit Manip",
+      "difficulty": "Medium",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 175,
+      "name": "Power Set (Bit Manipulation)",
+      "topic": "Bit Manip",
+      "difficulty": "Medium",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 176,
+      "name": "XOR of numbers in a given range",
+      "topic": "Bit Manip",
+      "difficulty": "Medium",
+      "category": "Bit Manip"
+    },
+    {
+      "id": 177,
+      "name": "Assign Cookies",
+      "topic": "Greedy",
+      "difficulty": "Easy",
+      "category": "Greedy"
+    },
+    {
+      "id": 178,
+      "name": "Lemonade Change",
+      "topic": "Greedy",
+      "difficulty": "Easy",
+      "category": "Greedy"
+    },
+    {
+      "id": 179,
+      "name": "Jump Game I",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 180,
+      "name": "Shortest Job First",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 181,
+      "name": "Job Sequencing Problem",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 182,
+      "name": "N meetings in one room",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 183,
+      "name": "Non-overlapping Intervals",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 184,
+      "name": "Insert Interval",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy"
+    },
+    {
+      "id": 185,
+      "name": "Minimum platforms required for railway",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy Hard"
+    },
+    {
+      "id": 186,
+      "name": "Valid Parenthesis Checker",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy Hard"
+    },
+    {
+      "id": 187,
+      "name": "Candy",
+      "topic": "Greedy",
+      "difficulty": "Hard",
+      "category": "Greedy Hard"
+    },
+    {
+      "id": 188,
+      "name": "Maximum Points from Cards",
+      "topic": "Greedy",
+      "difficulty": "Medium",
+      "category": "Greedy Hard"
+    },
+    {
+      "id": 189,
+      "name": "Longest Substring Without Repeating Characters",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 190,
+      "name": "Max Consecutive Ones III",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 191,
+      "name": "Fruit Into Baskets",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 192,
+      "name": "Longest Substring With At Most K Distinct Characters",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 193,
+      "name": "Longest Repeating Character Replacement",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 194,
+      "name": "Minimum Window Substring",
+      "topic": "Sliding Window",
+      "difficulty": "Hard",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 195,
+      "name": "Number of Substrings Containing All Three Characters",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 196,
+      "name": "Binary Subarrays With Sum",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 197,
+      "name": "Count number of Nice subarrays",
+      "topic": "Sliding Window",
+      "difficulty": "Medium",
+      "category": "Sliding Window"
+    },
+    {
+      "id": 198,
+      "name": "Implement Stack using Arrays",
+      "topic": "Stack/Queue",
+      "difficulty": "Easy",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 199,
+      "name": "Implement Queue using Arrays",
+      "topic": "Stack/Queue",
+      "difficulty": "Easy",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 200,
+      "name": "Implement Stack using Queue",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 201,
+      "name": "Implement Queue using Stack",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 202,
+      "name": "Implement Stack using Linkedlist",
+      "topic": "Stack/Queue",
+      "difficulty": "Easy",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 203,
+      "name": "Implement Queue using Linkedlist",
+      "topic": "Stack/Queue",
+      "difficulty": "Easy",
+      "category": "Stack/Queue Impl"
+    },
+    {
+      "id": 204,
+      "name": "Balanced Parentheses",
+      "topic": "Stack/Queue",
+      "difficulty": "Easy",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 205,
+      "name": "Next Greater Element",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 206,
+      "name": "Next Greater Element II (circular)",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 207,
+      "name": "Asteroid Collision",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 208,
+      "name": "Sum of Subarray Minimums",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 209,
+      "name": "Sum of Subarray Ranges",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 210,
+      "name": "Remove K Digits",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 211,
+      "name": "Implement Min Stack",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 212,
+      "name": "Sliding Window Maximum",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 213,
+      "name": "Trapping Rainwater",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 214,
+      "name": "Largest Rectangle in Histogram",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 215,
+      "name": "Maximum Rectangles",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 216,
+      "name": "Stock Span Problem",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 217,
+      "name": "Celebrity Problem",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 218,
+      "name": "LRU Cache",
+      "topic": "Stack/Queue",
+      "difficulty": "Medium",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 219,
+      "name": "LFU Cache",
+      "topic": "Stack/Queue",
+      "difficulty": "Hard",
+      "category": "Stack/Queue FAQs"
+    },
+    {
+      "id": 220,
+      "name": "Inorder Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Traversal"
+    },
+    {
+      "id": 221,
+      "name": "Preorder Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Traversal"
+    },
+    {
+      "id": 222,
+      "name": "Postorder Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Traversal"
+    },
+    {
+      "id": 223,
+      "name": "Level Order Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Traversal"
+    },
+    {
+      "id": 224,
+      "name": "Pre Post Inorder in one traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Traversal"
+    },
+    {
+      "id": 225,
+      "name": "Maximum Depth of Binary Tree",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Medium"
+    },
+    {
+      "id": 226,
+      "name": "Check if two trees are identical",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Medium"
+    },
+    {
+      "id": 227,
+      "name": "Check for Balanced Binary Tree",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 228,
+      "name": "Diameter of Binary Tree",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 229,
+      "name": "Maximum Path Sum in BT",
+      "topic": "Binary Tree",
+      "difficulty": "Hard",
+      "category": "BT Medium"
+    },
+    {
+      "id": 230,
+      "name": "Check for Symmetrical BTs",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Medium"
+    },
+    {
+      "id": 231,
+      "name": "Zig Zag / Spiral Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 232,
+      "name": "Boundary Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 233,
+      "name": "Vertical Order Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Hard",
+      "category": "BT Medium"
+    },
+    {
+      "id": 234,
+      "name": "Top View of BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 235,
+      "name": "Bottom View of BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 236,
+      "name": "Right/Left View of BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 237,
+      "name": "Print root to node path in BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 238,
+      "name": "LCA in BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 239,
+      "name": "Maximum Width of BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 240,
+      "name": "Print all nodes at distance K in BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 241,
+      "name": "Minimum time to burn BT from given node",
+      "topic": "Binary Tree",
+      "difficulty": "Hard",
+      "category": "BT Medium"
+    },
+    {
+      "id": 242,
+      "name": "Count total nodes in a complete BT",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Medium"
+    },
+    {
+      "id": 243,
+      "name": "Requirements to construct a unique BT",
+      "topic": "Binary Tree",
+      "difficulty": "Easy",
+      "category": "BT Construction"
+    },
+    {
+      "id": 244,
+      "name": "Construct BT from Preorder and Inorder",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Construction"
+    },
+    {
+      "id": 245,
+      "name": "Construct BT from Postorder and Inorder",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Construction"
+    },
+    {
+      "id": 246,
+      "name": "Serialize and De-serialize BT",
+      "topic": "Binary Tree",
+      "difficulty": "Hard",
+      "category": "BT Construction"
+    },
+    {
+      "id": 247,
+      "name": "Morris Inorder Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Const Space"
+    },
+    {
+      "id": 248,
+      "name": "Morris Preorder Traversal",
+      "topic": "Binary Tree",
+      "difficulty": "Medium",
+      "category": "BT Const Space"
+    },
+    {
+      "id": 249,
+      "name": "Search in BST",
+      "topic": "BST",
+      "difficulty": "Easy",
+      "category": "BST"
+    },
+    {
+      "id": 250,
+      "name": "Floor and Ceil in a BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 251,
+      "name": "Insert a given node in BST",
+      "topic": "BST",
+      "difficulty": "Easy",
+      "category": "BST"
+    },
+    {
+      "id": 252,
+      "name": "Delete a node in BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 253,
+      "name": "Kth Smallest and Largest element in BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 254,
+      "name": "Check if a tree is a BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 255,
+      "name": "LCA in BST",
+      "topic": "BST",
+      "difficulty": "Easy",
+      "category": "BST"
+    },
+    {
+      "id": 256,
+      "name": "Construct a BST from a preorder traversal",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 257,
+      "name": "Inorder successor and predecessor in BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 258,
+      "name": "BST Iterator",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 259,
+      "name": "Two Sum in BST",
+      "topic": "BST",
+      "difficulty": "Medium",
+      "category": "BST"
+    },
+    {
+      "id": 260,
+      "name": "Correct BST with two nodes swapped",
+      "topic": "BST",
+      "difficulty": "Hard",
+      "category": "BST"
+    },
+    {
+      "id": 261,
+      "name": "Largest BST in Binary Tree",
+      "topic": "BST",
+      "difficulty": "Hard",
+      "category": "BST"
+    },
+    {
+      "id": 262,
+      "name": "Heapify Algorithm",
+      "topic": "Heaps",
+      "difficulty": "Easy",
+      "category": "Heaps"
+    },
+    {
+      "id": 263,
+      "name": "Build heap from a given Array",
+      "topic": "Heaps",
+      "difficulty": "Easy",
+      "category": "Heaps"
+    },
+    {
+      "id": 264,
+      "name": "Implement Min Heap",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 265,
+      "name": "Implement Max Heap",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 266,
+      "name": "Check if array represents a min heap",
+      "topic": "Heaps",
+      "difficulty": "Easy",
+      "category": "Heaps"
+    },
+    {
+      "id": 267,
+      "name": "Convert Min Heap to Max Heap",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 268,
+      "name": "Heap Sort",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 269,
+      "name": "K-th Largest element in an array",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 270,
+      "name": "Kth largest element in a stream",
+      "topic": "Heaps",
+      "difficulty": "Medium",
+      "category": "Heaps"
+    },
+    {
+      "id": 271,
+      "name": "Traversal Techniques (BFS/DFS)",
+      "topic": "Graphs",
+      "difficulty": "Easy",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 272,
+      "name": "Connected Components",
+      "topic": "Graphs",
+      "difficulty": "Easy",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 273,
+      "name": "Number of Provinces",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 274,
+      "name": "Number of Islands",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 275,
+      "name": "Flood Fill Algorithm",
+      "topic": "Graphs",
+      "difficulty": "Easy",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 276,
+      "name": "Number of Enclaves",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 277,
+      "name": "Rotten Oranges",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 278,
+      "name": "Distance of nearest cell having 1",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 279,
+      "name": "Surrounded Regions",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 280,
+      "name": "Number of Distinct Islands",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Traversal"
+    },
+    {
+      "id": 281,
+      "name": "Detect a Cycle in Undirected Graph",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Cycles"
+    },
+    {
+      "id": 282,
+      "name": "Bipartite Graph",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Cycles"
+    },
+    {
+      "id": 283,
+      "name": "Topological Sort / Kahn's Algorithm",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 284,
+      "name": "Detect Cycle in Directed Graph",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 285,
+      "name": "Find Eventual Safe States",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 286,
+      "name": "Course Schedule I",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 287,
+      "name": "Course Schedule II",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 288,
+      "name": "Alien Dictionary",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Topo"
+    },
+    {
+      "id": 289,
+      "name": "Shortest Path in DAG",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 290,
+      "name": "Shortest Path Undirected with Unit Weights",
+      "topic": "Graphs",
+      "difficulty": "Easy",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 291,
+      "name": "Word Ladder I",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 292,
+      "name": "Word Ladder II",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 293,
+      "name": "Dijkstra's Algorithm",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 294,
+      "name": "Print Shortest Path",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 295,
+      "name": "Shortest Distance in a Binary Maze",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 296,
+      "name": "Path with Minimum Effort",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 297,
+      "name": "Cheapest Flight within K Stops",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 298,
+      "name": "Minimum Multiplications to Reach End",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 299,
+      "name": "Number of Ways to Arrive at Destination",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 300,
+      "name": "Bellman Ford Algorithm",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 301,
+      "name": "Floyd Warshall Algorithm",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 302,
+      "name": "Find the city with smallest number of neighbors",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs SP"
+    },
+    {
+      "id": 303,
+      "name": "MST Theory",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs MST"
+    },
+    {
+      "id": 304,
+      "name": "Disjoint Set / Union Find",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs MST"
+    },
+    {
+      "id": 305,
+      "name": "Find the MST Weight",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs MST"
+    },
+    {
+      "id": 306,
+      "name": "Number of operations to make network connected",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs MST"
+    },
+    {
+      "id": 307,
+      "name": "Accounts Merge",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 308,
+      "name": "Number of Islands II",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 309,
+      "name": "Making a Large Island",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 310,
+      "name": "Most Stones Removed with Same Row/Column",
+      "topic": "Graphs",
+      "difficulty": "Medium",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 311,
+      "name": "Kosaraju's Algorithm (SCC)",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 312,
+      "name": "Bridges in Graph",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 313,
+      "name": "Articulation Point in Graph",
+      "topic": "Graphs",
+      "difficulty": "Hard",
+      "category": "Graphs Hard"
+    },
+    {
+      "id": 314,
+      "name": "Climbing Stairs",
+      "topic": "DP",
+      "difficulty": "Easy",
+      "category": "DP 1D"
+    },
+    {
+      "id": 315,
+      "name": "Frog Jump",
+      "topic": "DP",
+      "difficulty": "Easy",
+      "category": "DP 1D"
+    },
+    {
+      "id": 316,
+      "name": "Frog Jump with K Distances",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP 1D"
+    },
+    {
+      "id": 317,
+      "name": "Maximum Sum of Non-Adjacent Elements",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP 1D"
+    },
+    {
+      "id": 318,
+      "name": "House Robber",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP 1D"
+    },
+    {
+      "id": 319,
+      "name": "Ninja's Training",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP 1D"
+    },
+    {
+      "id": 320,
+      "name": "Grid Unique Paths",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Grids"
+    },
+    {
+      "id": 321,
+      "name": "Unique Paths II",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Grids"
+    },
+    {
+      "id": 322,
+      "name": "Minimum Falling Path Sum",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Grids"
+    },
+    {
+      "id": 323,
+      "name": "Triangle",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Grids"
+    },
+    {
+      "id": 324,
+      "name": "Cherry Pickup II",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Grids"
+    },
+    {
+      "id": 325,
+      "name": "Best Time to Buy and Sell Stock",
+      "topic": "DP",
+      "difficulty": "Easy",
+      "category": "DP Stocks"
+    },
+    {
+      "id": 326,
+      "name": "Best Time to Buy and Sell Stock II",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Stocks"
+    },
+    {
+      "id": 327,
+      "name": "Best Time to Buy and Sell Stock III",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Stocks"
+    },
+    {
+      "id": 328,
+      "name": "Best Time to Buy and Sell Stock IV",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Stocks"
+    },
+    {
+      "id": 329,
+      "name": "Best Time to Buy and Sell Stock with Transaction Fees",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Stocks"
+    },
+    {
+      "id": 330,
+      "name": "Subset Sum Equals to Target",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 331,
+      "name": "Partition Equal Subset Sum",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 332,
+      "name": "Partition Set into Two Subsets Min Abs Difference",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 333,
+      "name": "Count Subsets with Sum K",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 334,
+      "name": "Count Partitions with Given Difference",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 335,
+      "name": "0 and 1 Knapsack",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 336,
+      "name": "Minimum Coins",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 337,
+      "name": "Target Sum",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 338,
+      "name": "Coin Change II",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 339,
+      "name": "Unbounded Knapsack",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 340,
+      "name": "Rod Cutting Problem",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Subsequences"
+    },
+    {
+      "id": 341,
+      "name": "Longest Increasing Subsequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 342,
+      "name": "Print Longest Increasing Subsequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 343,
+      "name": "Largest Divisible Subset",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 344,
+      "name": "Longest String Chain",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 345,
+      "name": "Longest Bitonic Subsequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 346,
+      "name": "Number of Longest Increasing Subsequences",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "LIS"
+    },
+    {
+      "id": 347,
+      "name": "Longest Common Subsequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 348,
+      "name": "Longest Common Substring",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 349,
+      "name": "Longest Palindromic Subsequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 350,
+      "name": "Minimum Insertions to Make String Palindrome",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 351,
+      "name": "Min Insertions or Deletions to Convert String A to B",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 352,
+      "name": "Shortest Common Supersequence",
+      "topic": "DP",
+      "difficulty": "Medium",
+      "category": "DP Strings"
+    },
+    {
+      "id": 353,
+      "name": "Distinct Subsequences",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Strings"
+    },
+    {
+      "id": 354,
+      "name": "Edit Distance",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Strings"
+    },
+    {
+      "id": 355,
+      "name": "Wildcard Matching",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "DP Strings"
+    },
+    {
+      "id": 356,
+      "name": "Matrix Chain Multiplication",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "MCM DP"
+    },
+    {
+      "id": 357,
+      "name": "Minimum Cost to Cut the Stick",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "MCM DP"
+    },
+    {
+      "id": 358,
+      "name": "Burst Balloons",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "MCM DP"
+    },
+    {
+      "id": 359,
+      "name": "Palindrome Partitioning II",
+      "topic": "DP",
+      "difficulty": "Hard",
+      "category": "MCM DP"
+    },
+    {
+      "id": 360,
+      "name": "Trie Implementation and Operations",
+      "topic": "Trie",
+      "difficulty": "Medium",
+      "category": "Trie"
+    },
+    {
+      "id": 361,
+      "name": "Trie Implementation and Advanced Operations",
+      "topic": "Trie",
+      "difficulty": "Medium",
+      "category": "Trie"
+    },
+    {
+      "id": 362,
+      "name": "Longest Word with All Prefixes",
+      "topic": "Trie",
+      "difficulty": "Medium",
+      "category": "Trie"
+    },
+    {
+      "id": 363,
+      "name": "Number of Distinct Substrings in a String",
+      "topic": "Trie",
+      "difficulty": "Medium",
+      "category": "Trie"
+    },
+    {
+      "id": 364,
+      "name": "Maximum XOR of two numbers in an array",
+      "topic": "Trie",
+      "difficulty": "Medium",
+      "category": "Trie"
+    },
+    {
+      "id": 365,
+      "name": "Maximum XOR with element from array",
+      "topic": "Trie",
+      "difficulty": "Hard",
+      "category": "Trie"
+    },
+    {
+      "id": 366,
+      "name": "Reverse every word in a string",
+      "topic": "Strings",
+      "difficulty": "Easy",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 367,
+      "name": "Min bracket reversals to make balanced",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 368,
+      "name": "Count and Say",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 369,
+      "name": "Rabin Karp Algorithm",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 370,
+      "name": "Z Function",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 371,
+      "name": "KMP Algorithm / LPS array",
+      "topic": "Strings",
+      "difficulty": "Medium",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 372,
+      "name": "Shortest Palindrome",
+      "topic": "Strings",
+      "difficulty": "Hard",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 373,
+      "name": "Longest Happy Prefix",
+      "topic": "Strings",
+      "difficulty": "Hard",
+      "category": "Strings Advanced"
+    },
+    {
+      "id": 374,
+      "name": "Print all primes till N (Sieve of Eratosthenes)",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Maths Advanced"
+    },
+    {
+      "id": 375,
+      "name": "Prime Factorisation of a Number",
+      "topic": "Maths",
+      "difficulty": "Easy",
+      "category": "Maths Advanced"
+    },
+    {
+      "id": 376,
+      "name": "Count Primes in Range L to R",
+      "topic": "Maths",
+      "difficulty": "Medium",
+      "category": "Maths Advanced"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Skill / Topic",
+      "level": "Level",
+      "phase": "Phase",
+      "week": "Week",
+      "status": "Status",
+      "resource": "Resource",
+      "notes": "Notes",
+      "category": null
+    },
+    {
+      "name": "Variables, types, conditionals, loops",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "python.org",
+      "notes": "Absolute basics",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Functions, *args/**kwargs, default params",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": "Solid foundation",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "List/dict/set comprehensions",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": "Used everywhere",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "File I/O, exceptions, context managers",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Modules, packages, virtual environments",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "OOP \u2014 classes, inheritance, dunder methods",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "Corey Schafer YT",
+      "notes": "__repr__, __eq__",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Decorators \u2014 function + class decorators",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": "Critical for FastAPI",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Generators and iterators",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": "Memory efficiency",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Type hints + mypy basics",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Used in all prod code",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Logging module \u2014 handlers, formatters, levels",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Regular expressions (re module)",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "regex101.com",
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Async/await \u2014 coroutines, event loop, tasks",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "ArjanCodes YT",
+      "notes": "Core for FastAPI",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "asyncio.gather, Queue, semaphores",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "asyncio docs",
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Concurrency: threading vs multiprocessing vs async",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "Real Python",
+      "notes": "Interview topic",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "GIL \u2014 what it is and when it matters",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Key interview Q",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Memory management \u2014 ref counting, gc module",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Metaclasses and descriptors",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "FAANG deep dive",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "functools \u2014 lru_cache, partial, reduce",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "CPython internals \u2014 bytecode, dis module",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": "CPython source",
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "Python profiling \u2014 cProfile, line_profiler",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Optimization",
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "C extensions with ctypes / cffi",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\udc0d Python Core"
+    },
+    {
+      "name": "HTTP basics \u2014 methods, status codes, headers",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "MDN docs",
+      "notes": "Foundation",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "FastAPI hello world \u2014 routes, path params",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Pydantic models \u2014 validation, schema, types",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": "Core to FastAPI",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Query params, request body, response models",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "OpenAPI/Swagger UI auto-docs",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Dependency injection system in FastAPI",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": "Very important",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "JWT auth \u2014 encode/decode, access+refresh tokens",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "OAuth2 password flow + bearer tokens",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "RBAC \u2014 roles, permissions middleware",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "You already built this",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "SQLAlchemy ORM basics",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "SQLAlchemy docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Alembic migrations",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Schema versioning",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Background tasks \u2014 FastAPI BackgroundTasks",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "File uploads and static file serving",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Error handling \u2014 HTTPException, custom handlers",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Middleware \u2014 CORS, logging, rate limiting",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Async SQLAlchemy + async DB sessions",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Performance critical",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "WebSockets in FastAPI",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": "FastAPI docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Celery + Redis \u2014 task queue architecture",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": "Celery docs",
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Redis caching \u2014 cache-aside, TTL, invalidation",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "API versioning strategies",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Testing FastAPI \u2014 pytest, TestClient, fixtures",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "TDD",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Rate limiting \u2014 sliding window, token bucket",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "GraphQL with Strawberry/Ariadne",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "gRPC with Python \u2014 protobuf, service defs",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "Event-driven \u2014 Kafka/RabbitMQ + FastAPI",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Microservices",
+      "category": "\u26a1 FastAPI & Backend"
+    },
+    {
+      "name": "SQL basics \u2014 SELECT, WHERE, JOIN, GROUP BY",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "SQLZoo",
+      "notes": "Must be solid",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Primary keys, foreign keys, constraints",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "PostgreSQL setup + psql CLI basics",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "CRUD operations in Python with psycopg2",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "MongoDB basics \u2014 documents, collections, CRUD",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "MongoDB docs",
+      "notes": "You used this",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Indexes \u2014 B-tree, hash, composite, partial",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Key interview topic",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "EXPLAIN ANALYZE \u2014 reading query plans",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "use-the-index-luke.com",
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Transactions \u2014 ACID, BEGIN/COMMIT/ROLLBACK",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Isolation levels \u2014 read committed, repeatable read",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Interview topic",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Window functions \u2014 ROW_NUMBER, RANK, LAG/LEAD",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": "Mode Analytics",
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "CTEs and recursive queries",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Connection pooling \u2014 pgBouncer, SQLAlchemy pool",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Redis data structures \u2014 string, hash, list, zset",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "Redis docs",
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "PostgreSQL partitioning \u2014 range, list, hash",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Full-text search in PostgreSQL (tsvector)",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Database normalization \u2014 1NF to 3NF + BCNF",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Deadlocks \u2014 detection, prevention, resolution",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Read replicas + replication basics",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Vector databases \u2014 pgvector, FAISS, Pinecone",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "AI backends",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "Sharding strategies \u2014 horizontal vs vertical",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "System design",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "MVCC internals in PostgreSQL",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Deep interview",
+      "category": "\ud83d\uddc4\ufe0f Databases"
+    },
+    {
+      "name": "NumPy \u2014 arrays, broadcasting, vectorization",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "NumPy docs",
+      "notes": "Foundation",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Pandas \u2014 Series, DataFrame, groupby, merge",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Pandas docs",
+      "notes": "You used this",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "EDA \u2014 describe, visualize, missing values",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Imarticus work",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Scikit-learn pipeline \u2014 fit, predict, score",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "sklearn docs",
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Feature engineering \u2014 encoding, scaling",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Model evaluation \u2014 CV, ROC, F1, confusion matrix",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Ensemble methods \u2014 Random Forest, GradBoost",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "XGBoost + LightGBM \u2014 hyperparameter tuning",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "You used this",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Time series \u2014 ARIMA, lag features, rolling stats",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Stock project",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "LangChain \u2014 chains, agents, tools, memory",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "LangChain docs",
+      "notes": "You built this",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "RAG pipeline \u2014 embed, FAISS, retrieve, generate",
+      "level": "Advanced",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "You built FAISS RAG",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "PyTorch fundamentals \u2014 tensors, autograd",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": "PyTorch docs",
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Transformers \u2014 attention, BERT basics",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": "Illustrated Transformer",
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Hugging Face \u2014 from_pretrained, pipelines, tokenizers",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": "HF docs",
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Prompt engineering \u2014 few-shot, CoT, ReAct",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "LLM fine-tuning \u2014 LoRA, QLoRA, PEFT",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": "Hugging Face",
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "MLOps \u2014 MLflow, DVC, data versioning",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Model serving at scale \u2014 TorchServe, Triton",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Production ML",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Evaluation frameworks \u2014 RAGAS, BERTScore, BLEU",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "LLM evals",
+      "category": "\ud83e\udd16 ML / AI Engineering"
+    },
+    {
+      "name": "Linux CLI \u2014 ls, grep, find, chmod, ps, top",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Linux Journey",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Git \u2014 init, add, commit, push, branch, merge",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": "Pro Git book",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Docker basics \u2014 Dockerfile, build, run, volumes",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": "Docker docs",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "docker-compose \u2014 multi-container apps",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Git \u2014 rebase, cherry-pick, stash, bisect",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Advanced git",
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "GitHub Actions \u2014 CI pipeline, test on push",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": "GitHub docs",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Deploy to Railway / Fly.io / Render",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 3",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "DO THIS NOW",
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Environment variables + .env + secrets",
+      "level": "Intermediate",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Nginx \u2014 reverse proxy, load balancing basics",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "HTTPS \u2014 Let's Encrypt, SSL/TLS basics",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Monitoring basics \u2014 Prometheus, Grafana",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Kubernetes basics \u2014 pods, services, deployments",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": "k8s docs",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "AWS core \u2014 EC2, S3, RDS, Lambda, IAM",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": "AWS Free tier",
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Helm charts \u2014 packaging K8s apps",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Infrastructure as code \u2014 Terraform basics",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Observability \u2014 tracing, OpenTelemetry, Jaeger",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 11",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Service mesh \u2014 Istio / Linkerd basics",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 11",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Cost optimization + autoscaling on cloud",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 12",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\u2601\ufe0f DevOps & Infra"
+    },
+    {
+      "name": "Client-server model, REST vs RPC",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Foundation",
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Latency vs throughput concepts",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Caching concepts \u2014 why, where, when",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Load balancing \u2014 round robin, least connections",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "CAP theorem \u2014 consistency, availability, partition",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Core interview",
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Horizontal vs vertical scaling",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Database sharding vs replication",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Message queues \u2014 Kafka, RabbitMQ concepts",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: URL shortener (TinyURL)",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": "Grokking SD",
+      "notes": "Classic",
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: rate limiter",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": "Grokking SD",
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: notification service",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: file storage (Dropbox)",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: search autocomplete",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": "Grokking SD",
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: social media feed (Twitter)",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: ride sharing (Uber)",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: video streaming (YouTube)",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Consistent hashing \u2014 ring, virtual nodes",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Distributed transactions \u2014 2PC, saga pattern",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Event sourcing + CQRS pattern",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: ML feature store",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 9",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "ML system design",
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: real-time recommendation engine",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 10",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Design: vector search at scale (ANN)",
+      "level": "Expert",
+      "phase": "P3",
+      "week": "Wk 11",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfd7\ufe0f System Design"
+    },
+    {
+      "name": "Resume \u2014 one page, action verbs, metrics",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Do this Week 1",
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "LinkedIn \u2014 headline, about, featured projects",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 1",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Cold outreach DMs that get replies",
+      "level": "Beginner",
+      "phase": "P1",
+      "week": "Wk 2",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "STAR method \u2014 10 behavioral stories written out",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Do ALL 10",
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Tell me about yourself \u2014 90-second pitch",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Rehearse aloud",
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Explaining projects clearly \u2014 WHAT/WHY/HOW/RESULT",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 4",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Pramp mock interviews \u2014 3x per week",
+      "level": "Intermediate",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": "Pramp.com",
+      "notes": "Non-negotiable",
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Live coding \u2014 narrate while solving",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 5",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": "Practice aloud",
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Whiteboard system design \u2014 structured approach",
+      "level": "Advanced",
+      "phase": "P2",
+      "week": "Wk 6",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Compensation negotiation basics",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": "Levels.fyi",
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    },
+    {
+      "name": "Handling multiple offers / exploding offers",
+      "level": "Advanced",
+      "phase": "P3",
+      "week": "Wk 8",
+      "status": "\u2610 Todo",
+      "resource": null,
+      "notes": null,
+      "category": "\ud83c\udfa4 Interview & Soft Skills"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project name",
+      "stack": "Tech stack",
+      "status": "Status",
+      "priority": "Priority",
+      "liveUrl": "Live URL",
+      "githubUrl": "GitHub URL",
+      "action": "Action needed TODAY"
+    },
+    {
+      "name": "RustCart API",
+      "stack": "Rust + Actix + PostgreSQL + Razorpay",
+      "status": "\ud83d\udd34 Not deployed",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Deploy to Railway + add README with screenshots"
+    },
+    {
+      "name": "SwiftShare",
+      "stack": "Rust + Warp + Tokio",
+      "status": "\ud83d\udd34 Not deployed",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Deploy + write proper README"
+    },
+    {
+      "name": "Zettabyte",
+      "stack": "Full-stack event platform",
+      "status": "\ud83d\udfe1 In progress",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Add live URL \u2014 most impressive project"
+    },
+    {
+      "name": "PhisGuard+",
+      "stack": "Python + ML + Chrome extension",
+      "status": "\ud83d\udfe1 In progress",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Deploy API + publish Chrome ext to store"
+    },
+    {
+      "name": "Expense App",
+      "stack": "Flutter + SQLite",
+      "status": "\ud83d\udfe1 In progress",
+      "priority": "P2 - This month",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Add README + screenshots"
+    },
+    {
+      "name": "Life Engine AI",
+      "stack": "FastAPI + FAISS + OpenAI/Gemini + Redis",
+      "status": "\ud83d\udd34 Not deployed",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Flagship ML project \u2014 finish + deploy ASAP"
+    },
+    {
+      "name": "Forest Fire Pred",
+      "stack": "Python + FastAPI + Ridge Regression",
+      "status": "\ud83d\udd34 Not deployed",
+      "priority": "P1 - This week",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Easy deploy \u2014 do this today"
+    },
+    {
+      "name": "Stock Prediction API",
+      "stack": "Python + XGBoost + MACD features",
+      "status": "\ud83d\udd34 Not deployed",
+      "priority": "P2 - This month",
+      "liveUrl": null,
+      "githubUrl": "github.com/AyushPandey510",
+      "action": "Deploy + add demo endpoint"
+    }
+  ],
+  "weeks": [
+    {
+      "week": "Wk #",
+      "dates": "Date range"
+    },
+    {
+      "week": "Wk 1",
+      "dates": "08 May \u2013 14 May"
+    },
+    {
+      "week": "Wk 2",
+      "dates": "15 May \u2013 21 May"
+    },
+    {
+      "week": "Wk 3",
+      "dates": "22 May \u2013 28 May"
+    },
+    {
+      "week": "Wk 4",
+      "dates": "29 May \u2013 04 Jun"
+    },
+    {
+      "week": "Wk 5",
+      "dates": "05 Jun \u2013 11 Jun"
+    },
+    {
+      "week": "Wk 6",
+      "dates": "12 Jun \u2013 18 Jun"
+    },
+    {
+      "week": "Wk 7",
+      "dates": "19 Jun \u2013 25 Jun"
+    },
+    {
+      "week": "Wk 8",
+      "dates": "26 Jun \u2013 02 Jul"
+    },
+    {
+      "week": "Wk 9",
+      "dates": "03 Jul \u2013 09 Jul"
+    },
+    {
+      "week": "Wk 10",
+      "dates": "10 Jul \u2013 16 Jul"
+    },
+    {
+      "week": "Wk 11",
+      "dates": "17 Jul \u2013 23 Jul"
+    },
+    {
+      "week": "Wk 12",
+      "dates": "24 Jul \u2013 30 Jul"
+    },
+    {
+      "week": "Wk 13",
+      "dates": "31 Jul \u2013 06 Aug"
+    }
+  ],
+  "targets": {
+    "leetcode": 168,
+    "jobs": 500,
+    "studyHours": 600,
+    "commits": 90,
+    "mocks": 36,
+    "startDate": "2025-05-08",
+    "endDate": "2025-08-06",
+    "role": "Python Backend & ML Engineer"
+  }
+}
