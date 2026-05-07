@@ -113,7 +113,14 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Outlet />
+      <AppNav />
+      <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
+        <Outlet />
+      </main>
+      <footer className="max-w-7xl mx-auto px-4 py-8 text-center text-xs text-muted-foreground">
+        Built with grit · 08 May → 06 Aug · ship before the deadline.
+      </footer>
+      <Toaster richColors theme="dark" position="bottom-right" />
     </QueryClientProvider>
   );
 }
