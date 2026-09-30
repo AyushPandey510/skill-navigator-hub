@@ -70,26 +70,25 @@
   --chart-4: oklch(0.82 0.17 85);
   --chart-5: oklch(0.7 0.2 340);
 
-  --gradient-primary: linear-gradient(135deg, oklch(0.72 0.18 280), oklch(0.78 0.16 200));
-  --gradient-accent: linear-gradient(135deg, oklch(0.7 0.2 340), oklch(0.72 0.18 280));
-  --gradient-success: linear-gradient(135deg, oklch(0.74 0.17 155), oklch(0.78 0.16 200));
-  --gradient-bg: radial-gradient(ellipse at top, oklch(0.22 0.06 280) 0%, oklch(0.14 0.03 265) 60%);
-  --shadow-glow: 0 0 40px -10px oklch(0.72 0.18 280 / 0.5);
+  --solid-primary: var(--primary);
+  --solid-accent: var(--accent);
+  --solid-success: var(--success);
+  --shadow-glow: 0 10px 24px -18px oklch(0 0 0 / 0.75);
   --shadow-soft: 0 8px 30px -10px oklch(0 0 0 / 0.5);
 }
 
 @layer base {
   * { border-color: var(--color-border); }
-  html, body { background: var(--gradient-bg); color: var(--color-foreground); min-height: 100vh; }
+  html, body { background: var(--color-background); color: var(--color-foreground); min-height: 100vh; }
   body { font-feature-settings: "ss01", "cv11"; }
   ::selection { background: oklch(0.72 0.18 280 / 0.4); }
 }
 
 @layer utilities {
-  .gradient-primary { background: var(--gradient-primary); }
-  .gradient-accent { background: var(--gradient-accent); }
-  .gradient-success { background: var(--gradient-success); }
-  .text-gradient { background: var(--gradient-primary); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .gradient-primary { background: var(--solid-primary); }
+  .gradient-accent { background: var(--solid-accent); }
+  .gradient-success { background: var(--solid-success); }
+  .text-gradient { color: var(--color-primary); }
   .glass { background: oklch(0.21 0.035 265 / 0.7); backdrop-filter: blur(12px); border: 1px solid oklch(0.4 0.05 265 / 0.3); }
   .shadow-glow { box-shadow: var(--shadow-glow); }
   .shadow-soft { box-shadow: var(--shadow-soft); }

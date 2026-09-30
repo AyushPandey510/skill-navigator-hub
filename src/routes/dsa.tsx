@@ -13,6 +13,13 @@ const STATUS = ["todo", "doing", "done", "revisit"] as const;
 const STATUS_LABEL: Record<string, string> = { todo: "☐ Todo", doing: "🔄 Doing", done: "✅ Done", revisit: "🔁 Revisit" };
 const STATUS_TONE: Record<string, any> = { todo: "default", doing: "info", done: "success", revisit: "warning" };
 
+function practiceSearchUrl(problem: { name: string; topic?: string; category?: string; difficulty?: string }) {
+  const keywords = [problem.name, problem.topic, problem.category, problem.difficulty, "DSA practice problem", "coding interview"]
+    .filter(Boolean)
+    .join(" ");
+  return `https://www.google.com/search?q=${encodeURIComponent(keywords)}`;
+}
+
 function DSAPage() {
   const tracker = useTracker();
   const s = useAppState();
@@ -72,11 +79,11 @@ function DSAPage() {
             <tbody>
               {filtered.map((p: any) => {
                 const st = s.dsaStatus[p.id] ?? "todo";
-                const url = `https://leetcode.com/problems/${p.name.toLowerCase().replace(/[^a-z0-9 ]/g, "").replace(/ +/g, "-")}/`;
+                const url = practiceSearchUrl(p);
                 return (
                   <tr key={p.id} className="border-t border-border hover:bg-secondary/40">
                     <td className="p-2 text-muted-foreground">{p.id}</td>
-                    <td className="p-2 font-medium"><a href={url} target="_blank" rel="noreferrer" className="hover:text-primary inline-flex items-center gap-1">{p.name}<ExternalLink className="w-3 h-3 opacity-50" /></a></td>
+                    <td className="p-2 font-medium"><a href={url} target="_blank" rel="noreferrer" title={`Search practice options for ${p.name}`} className="hover:text-primary inline-flex items-center gap-1">{p.name}<ExternalLink className="w-3 h-3 opacity-50" /></a></td>
                     <td className="p-2 text-xs text-muted-foreground">{p.topic}</td>
                     <td className="p-2"><Pill tone={p.difficulty === "Easy" ? "success" : p.difficulty === "Hard" ? "danger" : "warning"}>{p.difficulty}</Pill></td>
                     <td className="p-2 text-xs text-muted-foreground">{p.category}</td>

@@ -41,23 +41,43 @@ export type Note = {
   mood?: string;
 };
 
+export type UserProfile = {
+  name?: string;
+  role?: string;
+};
+
+export type Project = {
+  id: string;
+  name: string;
+  stack?: string;
+  status?: string;
+  priority?: string;
+  liveUrl?: string;
+  githubUrl?: string;
+  action?: string;
+};
+
 export type AppState = {
+  profile: UserProfile;
   dayLogs: Record<number, DayLog>;
   dsaStatus: Record<number, "todo" | "doing" | "done" | "revisit">;
   skillStatus: Record<number, "todo" | "doing" | "done">;
   projectStatus: Record<number, { liveUrl?: string; status?: string; done?: boolean }>;
+  projects: Project[];
   jobs: JobApp[];
   weekReviews: Record<number, WeekReview>;
   notes: Note[];
 };
 
-const KEY = "ayush_tracker_v1";
+const KEY = "skill_navigator_hub_v1";
 
 const defaultState: AppState = {
+  profile: {},
   dayLogs: {},
   dsaStatus: {},
   skillStatus: {},
   projectStatus: {},
+  projects: [],
   jobs: [],
   weekReviews: {},
   notes: [],
@@ -71,7 +91,9 @@ function load() {
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) state = { ...defaultState, ...JSON.parse(raw) };
-  } catch {}
+  } catch {
+    return;
+  }
 }
 function persist() {
   if (typeof window === "undefined") return;

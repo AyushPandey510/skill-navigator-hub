@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { computeStats, TARGETS, useAppState, useTracker } from "@/lib/store";
+import { computeStats, TARGETS, useAppState, useTracker, setState } from "@/lib/store";
 import { StatCard, PageHeader, Section, Pill } from "@/components/ui-kit";
 import { Calendar, Code2, Briefcase, BarChart3, Map, Rocket, NotebookPen, Flame, Target, Trophy, ArrowRight } from "lucide-react";
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
@@ -8,20 +8,20 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "90-Day Tracker · Home" },
-      { name: "description", content: "Ayush's 90-day Python Backend & ML Engineer job hunt dashboard." },
+      { name: "description", content: "A private 90-day career, skills, and project dashboard." },
     ],
   }),
   component: Home,
 });
 
 const navCards = [
-  { to: "/daily", label: "Daily Log", desc: "90-day grind log", icon: Calendar, accent: "from-primary to-accent" },
-  { to: "/dsa", label: "DSA / LeetCode", desc: "TUF+ problem set", icon: Code2, accent: "from-accent to-info" },
-  { to: "/jobs", label: "Job Applications", desc: "Pipeline tracker", icon: Briefcase, accent: "from-chart-5 to-primary" },
-  { to: "/weekly", label: "Weekly Review", desc: "Sunday reflection", icon: BarChart3, accent: "from-success to-accent" },
-  { to: "/skills", label: "Skill Roadmap", desc: "Beginner → Expert", icon: Map, accent: "from-warning to-chart-5" },
-  { to: "/projects", label: "Projects", desc: "Ship to recruiters", icon: Rocket, accent: "from-info to-success" },
-  { to: "/notes", label: "Daily Notes", desc: "Thoughts & ideas", icon: NotebookPen, accent: "from-primary to-chart-5" },
+  { to: "/daily", label: "Daily Log", desc: "90-day grind log", icon: Calendar, accent: "bg-primary" },
+  { to: "/dsa", label: "DSA / LeetCode", desc: "TUF+ problem set", icon: Code2, accent: "bg-accent" },
+  { to: "/jobs", label: "Job Applications", desc: "Pipeline tracker", icon: Briefcase, accent: "bg-chart-5" },
+  { to: "/weekly", label: "Weekly Review", desc: "Sunday reflection", icon: BarChart3, accent: "bg-success" },
+  { to: "/skills", label: "Skill Roadmap", desc: "Beginner → Expert", icon: Map, accent: "bg-warning" },
+  { to: "/projects", label: "Projects", desc: "Ship to recruiters", icon: Rocket, accent: "bg-info" },
+  { to: "/notes", label: "Daily Notes", desc: "Thoughts & ideas", icon: NotebookPen, accent: "bg-primary" },
 ] as const;
 
 function Home() {
@@ -36,26 +36,44 @@ function Home() {
     lc: s.dayLogs[d.day]?.lcCount ?? 0,
   }));
 
-  // streak — consecutive logged days from today backwards
-  const today = new Date();
-  const start = new Date(2025, 4, 8);
-  const dayNum = Math.floor((today.getTime() - start.getTime()) / 86400000) + 1;
+  const displayDay = Math.max(1, Math.min(90, stats.daysLogged || 1));
+  const updateProfile = (patch: Partial<typeof s.profile>) =>
+    setState((st) => ({ ...st, profile: { ...st.profile, ...patch } }));
 
   return (
     <div className="space-y-8">
       <div className="relative overflow-hidden rounded-3xl glass p-8 md:p-12 shadow-soft">
-        <div className="absolute inset-0 gradient-primary opacity-10" />
-        <div className="absolute -bottom-20 -right-20 w-72 h-72 gradient-accent opacity-20 blur-3xl rounded-full" />
+        <div className="absolute inset-0 bg-primary/10" />
         <div className="relative">
-          <Pill tone="primary">Day {Math.max(1, Math.min(90, dayNum))} of 90</Pill>
+          <Pill tone="primary">Day {displayDay} of 90</Pill>
           <h1 className="text-4xl md:text-6xl font-bold mt-4 leading-tight">
-            <span className="text-gradient">90-Day Job Hunt</span>
+            <span className="text-gradient">90-Day Progress</span>
             <br />
             <span className="text-foreground">Dashboard</span>
           </h1>
           <p className="text-muted-foreground mt-3 max-w-xl">
-            Python Backend & ML Engineer · Start 08 May → Offer before 06 Aug. No excuses, just reps.
+            Track your skills, projects, job applications, notes, and daily practice. Everything is saved privately on this device.
           </p>
+          <div className="mt-5 grid sm:grid-cols-2 gap-3 max-w-2xl">
+            <label className="block">
+              <div className="text-[10px] uppercase text-muted-foreground mb-1">Your name</div>
+              <input
+                value={s.profile.name ?? ""}
+                onChange={(e) => updateProfile({ name: e.target.value })}
+                placeholder="Your name"
+                className="w-full bg-input rounded-lg px-3 py-2 text-sm"
+              />
+            </label>
+            <label className="block">
+              <div className="text-[10px] uppercase text-muted-foreground mb-1">Focus</div>
+              <input
+                value={s.profile.role ?? ""}
+                onChange={(e) => updateProfile({ role: e.target.value })}
+                placeholder="Backend Engineer, Data Analyst, Designer..."
+                className="w-full bg-input rounded-lg px-3 py-2 text-sm"
+              />
+            </label>
+          </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link to="/daily" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl gradient-primary text-primary-foreground font-medium shadow-glow hover:scale-105 transition-transform">
               Log today <ArrowRight className="w-4 h-4" />
@@ -112,7 +130,7 @@ function Home() {
                 to={c.to}
                 className="group relative overflow-hidden rounded-2xl glass p-5 shadow-soft hover:shadow-glow hover:-translate-y-1 transition-all"
               >
-                <div className={`absolute -top-12 -right-12 w-32 h-32 bg-gradient-to-br ${c.accent} opacity-30 blur-2xl rounded-full group-hover:opacity-60 transition-opacity`} />
+                <div className={`absolute top-0 right-0 h-1 w-full ${c.accent} opacity-70 transition-opacity group-hover:opacity-100`} />
                 <Icon className="w-7 h-7 text-primary mb-3 relative" />
                 <div className="font-semibold relative">{c.label}</div>
                 <div className="text-xs text-muted-foreground relative">{c.desc}</div>

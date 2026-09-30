@@ -1,5 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Home, Calendar, Code2, Briefcase, BarChart3, Map, Rocket, NotebookPen } from "lucide-react";
+import { useAppState } from "@/lib/store";
 
 const navItems = [
   { to: "/", label: "Home", icon: Home },
@@ -14,14 +15,20 @@ const navItems = [
 
 export function AppNav() {
   const path = useRouterState({ select: (r) => r.location.pathname });
+  const { profile } = useAppState();
+  const name = profile.name?.trim() || "Your";
+  const role = profile.role?.trim() || "Career & Skill Tracker";
+
   return (
     <header className="sticky top-0 z-40 glass border-b border-border">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center gap-4 flex-wrap">
         <Link to="/" className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl gradient-primary shadow-glow grid place-items-center font-bold text-primary-foreground">A</div>
+          <div className="w-9 h-9 rounded-xl gradient-primary shadow-glow grid place-items-center font-bold text-primary-foreground">
+            {name.charAt(0).toUpperCase()}
+          </div>
           <div className="leading-tight">
-            <div className="text-sm font-semibold">Ayush · 90-Day Tracker</div>
-            <div className="text-[10px] text-muted-foreground">Python Backend & ML Engineer</div>
+            <div className="text-sm font-semibold">{name} · 90-Day Tracker</div>
+            <div className="text-[10px] text-muted-foreground">{role}</div>
           </div>
         </Link>
         <nav className="flex items-center gap-1 ml-auto flex-wrap">
