@@ -118,14 +118,18 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <AppNav />
-      <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
-        <Outlet />
-      </main>
-      <footer className="max-w-7xl mx-auto px-4 py-8 text-center text-xs text-muted-foreground">
-        Built with grit · 08 May → 06 Aug · ship before the deadline.
-      </footer>
-      <Toaster richColors theme="dark" position="bottom-right" />
+      <div className="workstation-shell">
+        <AppNav />
+        <main className="px-5 py-4">
+          <Outlet />
+        </main>
+        <footer className="flex justify-between border-t-2 border-border bg-card px-2 py-1 text-xs text-foreground shadow-[var(--bevel-sunken)]">
+          <span className="inline-flex items-center gap-1"><span className="h-2 w-2 bg-success" aria-hidden="true" /> READY</span>
+          <span>Auto-Save: ACTIVE (Local)</span>
+          <span>Local data only</span>
+        </footer>
+      </div>
+      <Toaster richColors theme="light" position="bottom-right" />
     </QueryClientProvider>
   );
 }

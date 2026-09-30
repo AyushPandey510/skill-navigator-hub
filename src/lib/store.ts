@@ -41,9 +41,21 @@ export type Note = {
   mood?: string;
 };
 
+export type QuickLink = {
+  id: string;
+  label: string;
+  url: string;
+};
+
 export type UserProfile = {
   name?: string;
   role?: string;
+  startDate?: string;
+  endDate?: string;
+  goal?: string;
+  deadline?: string;
+  notes?: string;
+  quickLinks?: QuickLink[];
 };
 
 export type Project = {
