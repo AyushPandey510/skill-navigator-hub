@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { Analytics } from "@vercel/analytics/react";
 import {
   Outlet,
   Link,
@@ -150,6 +151,7 @@ function RootComponent() {
         </footer>
       </div>
       <Toaster richColors theme="light" position="bottom-right" />
+      <Analytics />
     </QueryClientProvider>
   );
 }
