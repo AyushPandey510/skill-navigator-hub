@@ -209,12 +209,24 @@ export const TARGETS = {
 };
 
 export function exportData(): string {
-  return JSON.stringify(getState(), null, 2);
+  return JSON.stringify(
+    {
+      app: "Skill Navigator Hub",
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      data: getState(),
+    },
+    null,
+    2,
+  );
 }
+
 export function importData(json: string) {
   try {
     const parsed = JSON.parse(json);
-    setState(() => ({ ...defaultState, ...parsed }));
+    const incoming = parsed?.data && parsed?.app === "Skill Navigator Hub" ? parsed.data : parsed;
+    if (!incoming || typeof incoming !== "object") return false;
+    setState(() => ({ ...defaultState, ...incoming }));
     return true;
   } catch {
     return false;

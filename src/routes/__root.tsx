@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
@@ -76,6 +77,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Skill Navigator Hub" },
       { name: "description", content: "Track your skills, projects, and progress" },
+      { name: "theme-color", content: "#008080" },
+      { name: "mobile-web-app-capable", content: "yes" },
+      { name: "apple-mobile-web-app-capable", content: "yes" },
+      { name: "apple-mobile-web-app-title", content: "Skill Navigator" },
+      { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
       { property: "og:title", content: "Skill Navigator Hub" },
       { property: "og:description", content: "Track your skills, projects, and progress" },
       { property: "og:type", content: "website" },
@@ -86,6 +92,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "icon",
         href: "/favicon.svg",
         type: "image/svg+xml",
+      },
+      {
+        rel: "manifest",
+        href: "/manifest.webmanifest",
+      },
+      {
+        rel: "apple-touch-icon",
+        href: "/favicon.svg",
       },
       {
         rel: "stylesheet",
@@ -116,14 +130,20 @@ function RootShell({ children }: { children: React.ReactNode }) {
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
+  useEffect(() => {
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+    }
+  }, []);
+
   return (
     <QueryClientProvider client={queryClient}>
       <div className="workstation-shell">
         <AppNav />
-        <main className="px-5 py-4">
+        <main className="px-2 py-3 sm:px-5 sm:py-4">
           <Outlet />
         </main>
-        <footer className="flex justify-between border-t-2 border-border bg-card px-2 py-1 text-xs text-foreground shadow-[var(--bevel-sunken)]">
+        <footer className="flex flex-wrap justify-between gap-2 border-t-2 border-border bg-card px-2 py-1 text-[11px] text-foreground shadow-[var(--bevel-sunken)] sm:text-xs">
           <span className="inline-flex items-center gap-1"><span className="h-2 w-2 bg-success" aria-hidden="true" /> READY</span>
           <span>Auto-Save: ACTIVE (Local)</span>
           <span>Local data only</span>

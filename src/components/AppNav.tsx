@@ -1,6 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { useState } from "react";
-import { BarChart3, Briefcase, Calendar, Code2, Home, Map, NotebookPen, Rocket } from "lucide-react";
+import { useEffect, useState } from "react";
+import { BarChart3, Briefcase, Calendar, Code2, Download, Home, Map, NotebookPen, Rocket } from "lucide-react";
 import { computeStats, setState, TARGETS, useAppState, type QuickLink, type UserProfile } from "@/lib/store";
 
 const navItems = [
@@ -14,7 +14,12 @@ const navItems = [
   { to: "/notes", label: "Daily Notes", icon: NotebookPen },
 ] as const;
 
-type MenuName = "File" | "Edit" | "View" | "Tools" | "Help" | "Privacy" | "Developer";
+type MenuName = "File" | "Edit" | "View" | "Tools" | "Help" | "Privacy" | "Developer" | "Install";
+
+type BeforeInstallPromptEvent = Event & {
+  prompt: () => Promise<void>;
+  userChoice: Promise<{ outcome: "accepted" | "dismissed"; platform: string }>;
+};
 
 function externalUrl(url: string) {
   const clean = url.trim();
@@ -31,8 +36,42 @@ export function AppNav() {
   const appState = useAppState();
   const { profile } = appState;
   const [openMenu, setOpenMenu] = useState<MenuName | null>(null);
+  const [installPrompt, setInstallPrompt] = useState<BeforeInstallPromptEvent | null>(null);
+  const [isStandalone, setIsStandalone] = useState(false);
   const name = profile.name?.trim() || "Your";
   const role = profile.role?.trim() || "Career & Skill Tracker";
+
+  useEffect(() => {
+    const standalone = window.matchMedia?.("(display-mode: standalone)").matches || (navigator as Navigator & { standalone?: boolean }).standalone === true;
+    setIsStandalone(Boolean(standalone));
+
+    const onBeforeInstall = (event: Event) => {
+      event.preventDefault();
+      setInstallPrompt(event as BeforeInstallPromptEvent);
+    };
+    const onInstalled = () => {
+      setIsStandalone(true);
+      setInstallPrompt(null);
+    };
+
+    window.addEventListener("beforeinstallprompt", onBeforeInstall);
+    window.addEventListener("appinstalled", onInstalled);
+    return () => {
+      window.removeEventListener("beforeinstallprompt", onBeforeInstall);
+      window.removeEventListener("appinstalled", onInstalled);
+    };
+  }, []);
+
+  const handleInstall = async () => {
+    if (!installPrompt) {
+      setOpenMenu("Install");
+      return;
+    }
+
+    await installPrompt.prompt();
+    await installPrompt.userChoice.catch(() => undefined);
+    setInstallPrompt(null);
+  };
 
   return (
     <header className="sticky top-0 z-40 border-b-2 border-border bg-card shadow-[var(--bevel-raised)]">
@@ -49,7 +88,7 @@ export function AppNav() {
       </div>
 
       <div className="border-b-2 border-border bg-secondary px-2 py-1 text-xs">
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 overflow-x-auto whitespace-nowrap sm:gap-4">
           {(["File", "Edit", "View", "Tools", "Help", "Privacy", "Developer"] as MenuName[]).map((menu) => (
             <button
               key={menu}
@@ -66,7 +105,7 @@ export function AppNav() {
         </div>
       </div>
 
-      <nav aria-label="Primary" className="flex flex-wrap items-center gap-1 bg-card px-3 py-2">
+      <nav aria-label="Primary" className="grid grid-cols-2 gap-1 bg-card px-2 py-2 sm:flex sm:flex-wrap sm:items-center sm:px-3">
         {navItems.map((it) => {
           const Active = path === it.to;
           const Icon = it.icon;
@@ -76,17 +115,25 @@ export function AppNav() {
               key={it.to}
               to={it.to}
               aria-current={Active ? "page" : undefined}
-              className={`flex items-center gap-1.5 border-2 px-3 py-1 text-[11px] font-bold shadow-[var(--bevel-raised)] focus-visible:outline-2 ${
+              className={`flex min-w-0 items-center gap-1.5 border-2 px-2 py-1.5 text-[11px] font-bold shadow-[var(--bevel-raised)] focus-visible:outline-2 sm:px-3 sm:py-1 ${
                 Active
                   ? "border-primary bg-primary text-primary-foreground"
                   : "border-border bg-secondary text-foreground hover:bg-muted"
               }`}
             >
-              <Icon className="h-3.5 w-3.5" aria-hidden="true" />
-              <span>{it.label}</span>
+              <Icon className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+              <span className="truncate">{it.label}</span>
             </Link>
           );
         })}
+        <button
+          type="button"
+          onClick={handleInstall}
+          className="flex min-w-0 items-center justify-center gap-1.5 border-2 border-border bg-secondary px-2 py-1.5 text-[11px] font-bold shadow-[var(--bevel-raised)] hover:bg-muted sm:px-3 sm:py-1"
+        >
+          <Download className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
+          <span className="truncate">{isStandalone ? "Installed" : "Install App"}</span>
+        </button>
         <div className="ml-auto hidden border-2 border-border bg-input px-3 py-1 text-[11px] font-bold shadow-[var(--bevel-sunken)] lg:block">
           <span className="mr-2 inline-block h-2 w-2 bg-success" aria-hidden="true" />{name} - {role}
         </div>
@@ -99,6 +146,7 @@ export function AppNav() {
       {openMenu === "Help" && <HelpDialog onClose={() => setOpenMenu(null)} />}
       {openMenu === "Privacy" && <PrivacyDialog onClose={() => setOpenMenu(null)} />}
       {openMenu === "Developer" && <DeveloperDialog onClose={() => setOpenMenu(null)} />}
+      {openMenu === "Install" && <InstallDialog onClose={() => setOpenMenu(null)} />}
     </header>
   );
 }
@@ -110,14 +158,14 @@ function DialogShell({ title, onClose, children }: { title: string; onClose: () 
         role="dialog"
         aria-modal="true"
         aria-labelledby="menu-dialog-title"
-        className="w-full max-w-2xl border-2 border-border bg-card shadow-[var(--bevel-raised)]"
+        className="w-full max-w-[calc(100vw-1rem)] border-2 border-border bg-card shadow-[var(--bevel-raised)] sm:max-w-2xl"
         onMouseDown={(event) => event.stopPropagation()}
       >
         <div className="flex items-center justify-between bg-primary px-2 py-1 text-primary-foreground">
           <h2 id="menu-dialog-title" className="text-sm font-bold">{title}</h2>
           <button type="button" onClick={onClose} className="border border-white bg-card px-2 text-xs font-bold text-foreground" aria-label={`Close ${title}`}>X</button>
         </div>
-        <div className="max-h-[75vh] overflow-auto p-3 text-sm">{children}</div>
+        <div className="max-h-[75vh] overflow-auto p-2 text-sm sm:p-3">{children}</div>
       </section>
     </div>
   );
@@ -357,6 +405,26 @@ function DeveloperDialog({ onClose }: { onClose: () => void }) {
           Small daily proof beats imaginary progress. Keep showing up, keep logging clearly, and let the dashboard become evidence of the person you are building into.
         </p>
       </section>
+    </DialogShell>
+  );
+}
+
+function InstallDialog({ onClose }: { onClose: () => void }) {
+  return (
+    <DialogShell title="Install - Download App" onClose={onClose}>
+      <div className="space-y-4 leading-relaxed">
+        <DialogSection title="Install On This Device">
+          <p>Use the Install App button when your browser shows the install prompt. After installing, Skill Navigator Hub opens like a normal app and keeps using this device's local data.</p>
+        </DialogSection>
+        <DialogSection title="If No Prompt Appears">
+          <p><b>Chrome or Edge:</b> open the browser menu and choose Install app or Add to home screen.</p>
+          <p className="mt-2"><b>iPhone Safari:</b> open Share, then choose Add to Home Screen.</p>
+          <p className="mt-2"><b>Android:</b> open the browser menu, then choose Install app or Add to Home screen.</p>
+        </DialogSection>
+        <DialogSection title="Offline Note">
+          <p>The app shell is cached for faster repeat visits. Your tracker entries remain private in this browser profile on this device.</p>
+        </DialogSection>
+      </div>
     </DialogShell>
   );
 }

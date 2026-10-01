@@ -1,0 +1,20 @@
+{
+  "name": "Skill Navigator Hub",
+  "short_name": "SkillNav",
+  "description": "A private local-first 90-day tracker for skills, projects, DSA, jobs, and notes.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#c7c7c7",
+  "theme_color": "#008080",
+  "categories": ["productivity", "education"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

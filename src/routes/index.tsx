@@ -1,7 +1,8 @@
+import { useEffect, useRef, useState } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { computeStats, TARGETS, useAppState, useTracker, setState } from "@/lib/store";
+import { computeStats, exportData, importData, TARGETS, useAppState, useTracker, setState } from "@/lib/store";
 import { Pill } from "@/components/ui-kit";
-import { ArrowRight, NotebookPen } from "lucide-react";
+import { ArrowRight, Download, NotebookPen, Pause, Play, RotateCcw, Upload } from "lucide-react";
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 export const Route = createFileRoute("/")({
@@ -153,6 +154,8 @@ function Home() {
   const tracker = useTracker();
   const stats = computeStats(s);
   const quickLinks = s.profile.quickLinks ?? [];
+  const [backupOpen, setBackupOpen] = useState(false);
+  const [pomodoroOpen, setPomodoroOpen] = useState(false);
   const activityData = tracker.days.slice(0, 30).map((d: any) => ({
     day: `D${d.day}`,
     hours: s.dayLogs[d.day]?.studyHours ?? 0,
@@ -175,20 +178,26 @@ function Home() {
   const projectsLive = s.projects.filter((project) => ["live", "shipped"].includes((project.status ?? "").toLowerCase())).length;
   const activeJobs = s.jobs.filter((job) => !["Rejected", "Offer"].includes(job.status)).length;
   const consistency = Math.min(100, Math.round((stats.daysLogged / 7) * 100));
+  const snapshotRows = [
+    { area: "Roadmap focus", source: `Day ${displayDay}`, value: roadmapDay?.focus ?? "No roadmap focus", status: "Roadmap" },
+    { area: "Today log", source: "Daily Log", value: `${todayLog.studyHours ?? 0}h study, ${todayLog.lcCount ?? 0} DSA`, status: s.dayLogs[displayDay] ? "Logged" : "Empty" },
+    { area: "Projects", source: "Projects", value: `${s.projects.length} total, ${projectsLive} live/shipped`, status: s.projects.length ? "Active" : "Empty" },
+    { area: "Jobs", source: "Jobs", value: `${s.jobs.length} applications, ${activeJobs} active`, status: s.jobs.length ? "Tracked" : "Empty" },
+  ];
 
   return (
     <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_360px]">
       <div className="space-y-4">
-        <section className="retro-panel p-5">
-          <div className="flex items-start justify-between gap-4">
+        <section className="retro-panel p-3 sm:p-5">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
             <div>
               <Pill tone="primary">Day {displayDay} of 90</Pill>
-              <h1 className="mt-4 text-4xl font-black leading-tight md:text-5xl">90-Day Progress Dashboard</h1>
-              <p className="mt-3 max-w-3xl text-sm text-muted-foreground">
+              <h1 className="mt-4 max-w-full break-words text-2xl font-black leading-tight [overflow-wrap:anywhere] sm:text-4xl md:text-5xl">90-Day Progress Dashboard</h1>
+              <p className="mt-3 max-w-3xl break-words text-sm text-muted-foreground">
                 Track your skills, projects, job applications, notes, and daily practice. Everything is saved privately on this device.
               </p>
             </div>
-            <div className="hidden border-2 border-border bg-input px-2 py-1 text-[10px] font-bold shadow-[var(--bevel-sunken)] md:block">
+            <div className="w-fit border-2 border-border bg-input px-2 py-1 text-[10px] font-bold shadow-[var(--bevel-sunken)] sm:ml-auto md:block">
               ID: #DEV-2025
             </div>
           </div>
@@ -220,18 +229,18 @@ function Home() {
               <div><b>Focus:</b> {s.profile.role || "Career & Skill Tracker"}</div>
               {s.profile.goal && <div><b>Goal:</b> {s.profile.goal}</div>}
               {s.profile.deadline && <div><b>Deadline:</b> {s.profile.deadline}</div>}
-              <div className="mt-2 text-xs italic text-muted-foreground">Use Edit menu or settings tab to modify profile and planning details.</div>
+              <div className="mt-2 break-words text-xs italic text-muted-foreground">Use Edit menu or settings tab to modify profile and planning details.</div>
             </div>
           )}
         </section>
 
-        <section className="retro-panel p-4">
-          <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+        <section className="retro-panel p-3 sm:p-4">
+          <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:justify-between">
             <h2 className="text-sm font-black uppercase">Overall Trajectory:</h2>
-            <div className="font-mono text-sm font-bold" style={{ color: "#000080" }}>{displayDay} / 90 Days Completed ({completion}%)</div>
+            <div className="max-w-full break-words font-mono text-xs font-bold sm:text-sm" style={{ color: "#000080" }}>{displayDay} / 90 Days Completed ({completion}%)</div>
           </div>
           <div className="border-2 border-border bg-input p-2 shadow-[var(--bevel-sunken)]" aria-label={`${completion}% complete`}>
-            <div className="mb-1 grid grid-cols-3 gap-2 text-[9px] uppercase text-muted-foreground">
+            <div className="mb-1 grid gap-1 text-[9px] uppercase text-muted-foreground sm:grid-cols-3 sm:gap-2">
               <span>Phase 1: Foundation</span>
               <span>Phase 2: Advanced</span>
               <span>Phase 3: Interview Blitz</span>
@@ -245,15 +254,15 @@ function Home() {
               ))}
             </div>
           </div>
-          <div className="mt-4 flex flex-wrap gap-3">
-            <Link to="/daily" className="inline-flex items-center gap-2 bg-primary px-5 py-2 font-bold text-primary-foreground shadow-[var(--bevel-raised)]">
+          <div className="mt-4 grid gap-2 sm:flex sm:flex-wrap sm:gap-3">
+            <Link to="/daily" className="inline-flex items-center justify-center gap-2 bg-primary px-4 py-2 font-bold text-primary-foreground shadow-[var(--bevel-raised)] sm:px-5">
               Log today <ArrowRight className="h-4 w-4" />
             </Link>
-            <Link to="/notes" className="inline-flex items-center gap-2 border-2 border-border bg-secondary px-5 py-2 font-bold shadow-[var(--bevel-raised)]">
+            <Link to="/notes" className="inline-flex items-center justify-center gap-2 border-2 border-border bg-secondary px-4 py-2 font-bold shadow-[var(--bevel-raised)] sm:px-5">
               <NotebookPen className="h-4 w-4" /> Add a note
             </Link>
-            <button className="border-2 border-border bg-secondary px-5 py-2 font-bold shadow-[var(--bevel-raised)]" type="button">Backup Data</button>
-            <button className="border-2 border-border bg-secondary px-5 py-2 font-bold shadow-[var(--bevel-raised)]" type="button">DSA Pomodoro</button>
+            <button onClick={() => setBackupOpen(true)} className="border-2 border-border bg-secondary px-4 py-2 font-bold shadow-[var(--bevel-raised)] sm:px-5" type="button">Backup Data</button>
+            <button onClick={() => setPomodoroOpen(true)} className="border-2 border-border bg-secondary px-4 py-2 font-bold shadow-[var(--bevel-raised)] sm:px-5" type="button">DSA Pomodoro</button>
           </div>
         </section>
 
@@ -262,8 +271,13 @@ function Home() {
             <span>Local Snapshot</span>
             <span>Stored On This Device</span>
           </div>
-          <div className="p-3">
-            <div className="overflow-auto border-2 border-border bg-input shadow-[var(--bevel-sunken)]">
+          <div className="p-2 sm:p-3">
+            <div className="grid gap-2 sm:hidden">
+              {snapshotRows.map((row) => (
+                <SnapshotCard key={row.area} {...row} />
+              ))}
+            </div>
+            <div className="hidden overflow-auto border-2 border-border bg-input shadow-[var(--bevel-sunken)] sm:block">
               <table className="w-full min-w-[720px] text-xs">
                 <thead className="bg-secondary text-left uppercase">
                   <tr>
@@ -274,14 +288,13 @@ function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  <SnapshotRow area="Roadmap focus" source={`Day ${displayDay}`} value={roadmapDay?.focus ?? "No roadmap focus"} status="Roadmap" />
-                  <SnapshotRow area="Today log" source="Daily Log" value={`${todayLog.studyHours ?? 0}h study, ${todayLog.lcCount ?? 0} DSA`} status={s.dayLogs[displayDay] ? "Logged" : "Empty"} />
-                  <SnapshotRow area="Projects" source="Projects" value={`${s.projects.length} total, ${projectsLive} live/shipped`} status={s.projects.length ? "Active" : "Empty"} />
-                  <SnapshotRow area="Jobs" source="Jobs" value={`${s.jobs.length} applications, ${activeJobs} active`} status={s.jobs.length ? "Tracked" : "Empty"} />
+                  {snapshotRows.map((row) => (
+                    <SnapshotRow key={row.area} {...row} />
+                  ))}
                 </tbody>
               </table>
             </div>
-            <div className="mt-2 text-[10px] italic text-muted-foreground">No generated targets, times, or fake statuses. This panel only reflects roadmap data and local user-entered data.</div>
+            <div className="mt-2 break-words text-[10px] italic text-muted-foreground">No generated targets, times, or fake statuses. This panel only reflects roadmap data and local user-entered data.</div>
           </div>
         </section>
 
@@ -290,11 +303,11 @@ function Home() {
             <span>Activity Graph</span>
             <span>Last 30 Days</span>
           </div>
-          <div className="h-64 border-2 border-border bg-input p-3 shadow-[var(--bevel-sunken)]">
+          <div className="h-56 border-2 border-border bg-input p-2 shadow-[var(--bevel-sunken)] sm:h-64 sm:p-3">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={activityData}>
                 <CartesianGrid strokeDasharray="4 4" stroke="#808080" />
-                <XAxis dataKey="day" stroke="#000000" fontSize={11} tickLine={false} />
+                <XAxis dataKey="day" stroke="#000000" fontSize={10} tickLine={false} interval={3} minTickGap={8} />
                 <YAxis stroke="#000000" fontSize={11} tickLine={false} />
                 <Tooltip
                   cursor={{ stroke: "#008080", strokeWidth: 1 }}
@@ -338,7 +351,7 @@ function Home() {
                   href={externalUrl(link.url)}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex items-center justify-between border-2 border-border bg-secondary px-3 py-2 text-xs font-bold text-foreground shadow-[var(--bevel-raised)] hover:bg-muted"
+                  className="flex min-w-0 items-center justify-between gap-2 border-2 border-border bg-secondary px-3 py-2 text-xs font-bold text-foreground shadow-[var(--bevel-raised)] hover:bg-muted"
                 >
                   <span className="truncate">{link.label}</span>
                   <span aria-hidden="true">↗</span>
@@ -355,7 +368,7 @@ function Home() {
             <span>Live Stats</span>
           </div>
           <div className="p-3">
-            <div className="grid grid-cols-3 gap-2 text-center">
+            <div className="grid gap-2 text-center sm:grid-cols-3 lg:grid-cols-3">
               <MiniMetric label="Days Active" value={stats.daysLogged} />
               <MiniMetric label="Problems" value={stats.lcDone} tone="text-success" />
               <MiniMetric label="Study Time" value={`${stats.studyHours}h`} tone="text-[#000080]" />
@@ -372,13 +385,37 @@ function Home() {
 
         <section className="retro-panel p-3">
           <h2 className="mb-2 text-xs font-bold">Tip of the Day (Win95 Assistant):</h2>
-          <div className="border-2 border-warning bg-[#fff8d0] p-3 text-xs leading-relaxed shadow-[var(--bevel-sunken)]">
+          <div className="break-words border-2 border-warning bg-[#fff8d0] p-3 text-xs leading-relaxed shadow-[var(--bevel-sunken)] [overflow-wrap:anywhere]">
             <div><b>Day {displayDay}:</b> {dailyTip}</div>
             <div className="mt-2 border-t border-warning pt-2"><b>{smartNudge}</b></div>
           </div>
         </section>
       </aside>
+
+      {backupOpen && <BackupDialog onClose={() => setBackupOpen(false)} />}
+      {pomodoroOpen && <PomodoroDialog onClose={() => setPomodoroOpen(false)} />}
     </div>
+  );
+}
+
+function SnapshotCard({ area, source, value, status }: { area: string; source: string; value: string; status: string }) {
+  return (
+    <article className="border-2 border-border bg-input p-3 text-xs shadow-[var(--bevel-sunken)]">
+      <div className="mb-2 flex items-start justify-between gap-2 border-b border-border pb-2">
+        <h3 className="font-black">{area}</h3>
+        <span className="shrink-0 border border-border bg-secondary px-2 py-0.5 font-bold">{status}</span>
+      </div>
+      <dl className="grid gap-1">
+        <div className="grid grid-cols-[80px_minmax(0,1fr)] gap-2">
+          <dt className="font-bold text-muted-foreground">Source</dt>
+          <dd className="break-words">{source}</dd>
+        </div>
+        <div className="grid grid-cols-[80px_minmax(0,1fr)] gap-2">
+          <dt className="font-bold text-muted-foreground">Value</dt>
+          <dd className="break-words font-mono [overflow-wrap:anywhere]">{value}</dd>
+        </div>
+      </dl>
+    </article>
   );
 }
 
@@ -395,9 +432,194 @@ function SnapshotRow({ area, source, value, status }: { area: string; source: st
 
 function MiniMetric({ label, value, tone = "text-foreground" }: { label: string; value: string | number; tone?: string }) {
   return (
-    <div className="border-2 border-border bg-secondary p-3 shadow-[var(--bevel-raised)]">
+    <div className="border-2 border-border bg-secondary p-2 shadow-[var(--bevel-raised)] sm:p-3">
       <div className="text-[9px] font-bold uppercase text-muted-foreground">{label}</div>
       <div className={`mt-2 text-xl font-black ${tone}`}>{value}</div>
     </div>
+  );
+}
+
+function DialogWindow({ title, onClose, children }: { title: string; onClose: () => void; children: React.ReactNode }) {
+  return (
+    <div className="fixed inset-0 z-50 grid place-items-center bg-black/35 p-2" role="presentation" onMouseDown={onClose}>
+      <section
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dashboard-dialog-title"
+        className="w-full max-w-[calc(100vw-1rem)] border-2 border-border bg-card shadow-[var(--bevel-raised)] sm:max-w-4xl"
+        onMouseDown={(event) => event.stopPropagation()}
+      >
+        <div className="title-blue flex items-center justify-between px-2 py-1 text-primary-foreground">
+          <h2 id="dashboard-dialog-title" className="text-sm font-bold">{title}</h2>
+          <button type="button" onClick={onClose} className="border border-white bg-card px-2 text-xs font-bold text-foreground" aria-label={`Close ${title}`}>X</button>
+        </div>
+        <div className="max-h-[82vh] overflow-auto p-3">{children}</div>
+      </section>
+    </div>
+  );
+}
+
+function BackupDialog({ onClose }: { onClose: () => void }) {
+  const fileInput = useRef<HTMLInputElement | null>(null);
+  const [message, setMessage] = useState("Download a backup here, then upload it on another phone or desktop to continue with the same local data.");
+
+  const downloadBackup = () => {
+    const data = exportData();
+    const blob = new Blob([data], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const date = new Date().toISOString().slice(0, 10);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `skill-navigator-backup-${date}.json`;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setMessage("Backup downloaded. Move that JSON file to the other device and upload it here.");
+  };
+
+  const uploadBackup = async (file: File | undefined) => {
+    if (!file) return;
+    const text = await file.text();
+    const ok = importData(text);
+    setMessage(ok ? "Backup restored. Your dashboard now uses the imported local data." : "That file could not be imported. Please choose a Skill Navigator backup JSON file.");
+    if (ok) window.setTimeout(onClose, 900);
+  };
+
+  return (
+    <DialogWindow title="Backup Data - Move Devices" onClose={onClose}>
+      <div className="space-y-4 text-sm leading-relaxed">
+        <section className="border-2 border-border bg-input p-3 shadow-[var(--bevel-sunken)]">
+          <h3 className="mb-2 bg-primary px-2 py-1 text-xs font-bold uppercase text-primary-foreground">Continue On Another Device</h3>
+          <p className="break-words text-muted-foreground">{message}</p>
+        </section>
+        <div className="grid gap-2 sm:grid-cols-2">
+          <button type="button" onClick={downloadBackup} className="inline-flex items-center justify-center gap-2 border-2 border-border bg-secondary px-4 py-3 font-bold shadow-[var(--bevel-raised)]">
+            <Download className="h-4 w-4" aria-hidden="true" /> Download all local data
+          </button>
+          <button type="button" onClick={() => fileInput.current?.click()} className="inline-flex items-center justify-center gap-2 border-2 border-border bg-secondary px-4 py-3 font-bold shadow-[var(--bevel-raised)]">
+            <Upload className="h-4 w-4" aria-hidden="true" /> Upload backup file
+          </button>
+        </div>
+        <input
+          ref={fileInput}
+          type="file"
+          accept="application/json,.json"
+          className="hidden"
+          onChange={(event) => uploadBackup(event.target.files?.[0])}
+        />
+        <section className="border-2 border-border bg-input p-3 text-xs shadow-[var(--bevel-sunken)]">
+          <b>Included:</b> profile, quick links, daily logs, DSA statuses, skills, projects, jobs, weekly reviews, and notes. The file stays in your control; the app does not upload it to a server.
+        </section>
+      </div>
+    </DialogWindow>
+  );
+}
+
+function PomodoroDialog({ onClose }: { onClose: () => void }) {
+  const [duration, setDuration] = useState(25 * 60);
+  const [secondsLeft, setSecondsLeft] = useState(25 * 60);
+  const [phase, setPhase] = useState<"away" | "entering" | "sitting" | "leaving">("away");
+  const running = phase === "entering" || phase === "sitting";
+
+  useEffect(() => {
+    if (!running) return;
+    const timer = window.setInterval(() => {
+      setSecondsLeft((current) => {
+        if (current <= 1) {
+          window.clearInterval(timer);
+          setPhase("leaving");
+          return 0;
+        }
+        return current - 1;
+      });
+    }, 1000);
+    return () => window.clearInterval(timer);
+  }, [running]);
+
+  useEffect(() => {
+    if (phase !== "entering") return;
+    const id = window.setTimeout(() => setPhase("sitting"), 900);
+    return () => window.clearTimeout(id);
+  }, [phase]);
+
+  const start = () => {
+    if (secondsLeft === 0 || phase === "leaving") setSecondsLeft(duration);
+    setPhase("entering");
+  };
+  const pause = () => setPhase("away");
+  const reset = () => {
+    setSecondsLeft(duration);
+    setPhase("away");
+  };
+  const updateDuration = (value: number) => {
+    setDuration(value);
+    setSecondsLeft(value);
+    setPhase("away");
+  };
+  const minutes = Math.floor(secondsLeft / 60).toString().padStart(2, "0");
+  const seconds = (secondsLeft % 60).toString().padStart(2, "0");
+  const catTransform =
+    phase === "away"
+      ? "translateX(95%) translateY(82px) scale(0.78)"
+      : phase === "leaving"
+        ? "translateX(230%) translateY(82px) scale(0.78)"
+        : "translateX(-50%) translateY(0) scale(1)";
+
+  return (
+    <DialogWindow title="DSA Pomodoro" onClose={onClose}>
+      <div className="grid gap-4 md:grid-cols-[minmax(360px,1fr)_240px]">
+        <section className="border-2 border-border bg-input p-3 shadow-[var(--bevel-sunken)]">
+          <div
+            aria-label={running ? "Pomodoro running with cat on table" : "Pomodoro paused"}
+            style={{ position: "relative", minHeight: 300, overflow: "hidden", border: "2px solid #808080", backgroundColor: "#d8d8d8", backgroundImage: "linear-gradient(#ececec 15px, transparent 16px), linear-gradient(90deg, #ececec 15px, transparent 16px)", backgroundSize: "16px 16px", boxShadow: "inset -1px -1px #ffffff, inset 1px 1px #808080" }}
+          >
+            <div style={{ position: "absolute", left: 18, top: 18, width: 92, height: 64, border: "3px solid #000", background: "#000080", boxShadow: "inset 0 0 0 7px #c9c9c9, inset 0 0 0 10px #fff" }} />
+            <div style={{ position: "absolute", left: 46, right: 42, bottom: 86, height: 22, border: "3px solid #000", background: "#8b5a2b", boxShadow: "0 20px 0 -8px #5a3719" }}>
+              <span style={{ position: "absolute", left: 32, top: 20, width: 12, height: 56, border: "3px solid #000", background: "#5a3719" }} />
+              <span style={{ position: "absolute", right: 32, top: 20, width: 12, height: 56, border: "3px solid #000", background: "#5a3719" }} />
+            </div>
+            <div style={{ position: "absolute", right: 52, bottom: 28, width: 58, height: 72, border: "3px solid #000", background: "#008080", boxShadow: "inset -7px -7px 0 #006666" }}>
+              <span style={{ position: "absolute", left: 8, right: 8, bottom: -22, height: 14, border: "3px solid #000", background: "#006666" }} />
+            </div>
+            <div style={{ position: "absolute", left: "50%", bottom: 108, width: 92, height: 82, zIndex: 3, imageRendering: "pixelated", transform: catTransform, transition: "transform 700ms steps(5, end), opacity 250ms linear" }}>
+              <span style={{ position: "absolute", left: 19, top: 1, width: 18, height: 18, border: "3px solid #000", background: "#303030", transform: "rotate(45deg)", zIndex: 2 }} />
+              <span style={{ position: "absolute", right: 19, top: 1, width: 18, height: 18, border: "3px solid #000", background: "#303030", transform: "rotate(45deg)", zIndex: 2 }} />
+              <span style={{ position: "absolute", left: 18, top: 9, width: 54, height: 42, border: "3px solid #000", background: "#303030", boxShadow: "inset -7px -7px 0 #111" }}>
+                <i style={{ position: "absolute", left: 11, top: 16, width: 7, height: 7, background: "#00ffff", boxShadow: "0 9px 0 -2px #fff" }} />
+                <b style={{ position: "absolute", right: 11, top: 16, width: 7, height: 7, background: "#00ffff", boxShadow: "0 9px 0 -2px #fff" }} />
+              </span>
+              <span style={{ position: "absolute", left: 22, top: 38, width: 48, height: 38, border: "3px solid #000", background: "#303030", boxShadow: "inset -7px -7px 0 #111" }} />
+              <span style={{ position: "absolute", right: 8, top: 47, width: 30, height: 11, border: "3px solid #000", borderLeft: 0, background: "#303030", transform: "rotate(-18deg)", transformOrigin: "left center" }} />
+            </div>
+            {phase === "away" && <div style={{ position: "absolute", right: 42, bottom: 10, border: "2px solid #808080", background: "#fff8d0", padding: "3px 6px", fontSize: 10, fontWeight: 700, boxShadow: "inset -1px -1px #808080, inset 1px 1px #ffffff" }}>press start</div>}
+          </div>
+        </section>
+        <section className="space-y-3">
+          <div className="border-2 border-border bg-input p-4 text-center shadow-[var(--bevel-sunken)]">
+            <div className="text-[10px] font-bold uppercase text-muted-foreground">Focus Timer</div>
+            <div className="mt-2 font-mono text-4xl font-black">{minutes}:{seconds}</div>
+            <div className="mt-2 text-xs text-muted-foreground">{phase === "leaving" ? "Session complete. The cat left the desk." : running ? "Cat is guarding your DSA focus." : "Start when you are ready."}</div>
+          </div>
+          <label className="block text-xs font-bold uppercase">
+            Duration
+            <select value={duration} onChange={(event) => updateDuration(Number(event.target.value))} className="mt-1 w-full px-2 py-2">
+              <option value={25 * 60}>25 minutes</option>
+              <option value={15 * 60}>15 minutes</option>
+              <option value={5 * 60}>5 minutes</option>
+            </select>
+          </label>
+          <div className="grid gap-2">
+            <button type="button" onClick={running ? pause : start} className="inline-flex items-center justify-center gap-2 border-2 border-border bg-primary px-4 py-2 font-bold text-primary-foreground shadow-[var(--bevel-raised)]">
+              {running ? <Pause className="h-4 w-4" aria-hidden="true" /> : <Play className="h-4 w-4" aria-hidden="true" />}
+              {running ? "Pause" : "Start"}
+            </button>
+            <button type="button" onClick={reset} className="inline-flex items-center justify-center gap-2 border-2 border-border bg-secondary px-4 py-2 font-bold shadow-[var(--bevel-raised)]">
+              <RotateCcw className="h-4 w-4" aria-hidden="true" /> Reset
+            </button>
+          </div>
+        </section>
+      </div>
+    </DialogWindow>
   );
 }
